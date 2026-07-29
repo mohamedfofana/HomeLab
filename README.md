@@ -31,6 +31,7 @@ L'objectif est de démontrer les compétences d'**Administration Systèmes et R�
 ## 📋 Tableau de Synthèse d'Infrastructure
 
 | Équipement | VM OS | Service Adresse IP | VLAN Rôle & Services |
+| :--- | :---: | :---: | :--- |
 | pfSense | FreeBSD | WAN / LAN 192.168.20.1 | Pare-feu, routage, filtrage cerné |
 | DC-01 | Windows Server |192.168.20.10 |AD DS, DNS, Partage de Fichiers, Backup |
 | CLIENT-ADMIN | Windows Client | 192.168.20.50 | Poste d'administration à distance (RSAT) |
