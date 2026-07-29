@@ -10,10 +10,10 @@ L'objectif est de démontrer les compétences d'**Administration Systèmes et R�
 
 <picture>
   <!-- Image affichée en Mode Sombre -->
-  <source media="(prefers-color-scheme: dark)" srcset="C:\Users\moham\Downloads\lablanc.drawio.png">
+  <source media="(prefers-color-scheme: dark)" srcset="./images/lablanc.drawio.png">
   
   <!-- Image affichée en Mode Clair (par défaut) -->
-  <source media="(prefers-color-scheme: light)" srcset="C:\Users\moham\Downloads\Lab.drawio (1).png">
+  <source media="(prefers-color-scheme: light)" srcset="./images/Lab.drawio.png">
   
   <!-- Image de secours si le navigateur ne gère pas la balise -->
   <img alt="Schéma de l'architecture" src="./images/schema-light.png">
