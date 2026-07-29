@@ -1,40 +1,26 @@
 # 🛡️ Maquette d'Infrastructure Entreprise Sécurisée (Homelab AD / pfSense / GPO / Backup)
 
 ## 📌 Présentation du Projet
-Ce projet consiste en la conception, l'interconnexion et la sécurisation complète d'une infrastructure réseau et système d'entreprise virtualisée. 
-L'objectif est de démontrer les compétences d'**Administration Systèmes et Réseaux (ASR)** : découpage réseau strict sur pare-feu, annuaire Active Directory industrialisé, déploiement centralisé par GPO, serveur de fichiers avec gestion fine des autorisations NTFS et stratégie de sauvegarde d'urgence (System State).
+Ce projet consiste en la conception, l'interconnexion et la sécurisation d'une infrastructure réseau et système d'entreprise virtualisée. 
+L'objectif est de démontrer les compétences d'**Administration Systèmes et Réseaux (ASR)** : découpage réseau sur pare-feu, annuaire Active Directory, déploiement centralisé par GPO, serveur de fichiers avec gestion des autorisations NTFS, stratégie de sauvegarde d'urgence, script d'automatisation d'intégration de utilisateur à l'AD, serveur web isolé dans une DMZ. Ce projet est réalisé sur Hyper-V
 
 ---
 
 ## 📐 Architecture & Topologie Réseau
 
-               ┌────────────────┐
-               │   INTERNET     │
-               └───────┬────────┘
-                       │ (WAN)
-               ┌───────┴────────┐
-               │    pfSense     │  &lt;-- Pare-feu (Filtrage strict / Zéro règle ANY)
-               └───────┬────────┘
-                       │ (LAN - 192.168.20.0/24)
-        ┌──────────────┴──────────────┐
-        │                             │
-┌───────┴───────────────┐     ┌───────┴───────────────┐
-│ Windows Server (DC1)  │     │ Client Administration │
-│  - Active Directory   │     │  - Admin via RSAT     │
-│  - DNS / Serveur Fch  │     │  - Client Windows 10  │
-│  - Sauvegarde Backup  │     └───────────────────────┘
-└───────────────────────┘
-
+![schéma réseau](C:\Users\moham\Downloads\Lab.drawio (1).png)
 <br/>  
-
 
 ## 📋 Tableau de Synthèse d'Infrastructure
 
-| Équipement | VM OS | Service Adresse IP | VLAN Rôle & Services |
+| Équipement | VM OS | Adresse IP | VLAN Rôle & Services |
 | :--- | :---: | :---: | :--- |
-| pfSense | FreeBSD | WAN / LAN 192.168.20.1 | Pare-feu, routage, filtrage cerné |
-| DC-01 | Windows Server |192.168.20.10 |AD DS, DNS, Partage de Fichiers, Backup |
-| CLIENT-ADMIN | Windows Client | 192.168.20.50 | Poste d'administration à distance (RSAT) |
+| pfSense | FreeBSD | WAN 192.168.1.137 / LAN RoaS | Pare-feu, routage, filtrage |
+| PC-ADMIN | Windows Client | DHCP | Poste d'administration |
+| SRV-AD | Windows Server |192.168.20.10 |AD, DHCP, DNS, Partage de Fichiers, Backup |
+| PC-PROD | Windows Client | DHCP | Simulation poste utilisateurs |
+| SRV-WEB | Linux |10.0.40.10 |Serveur Web |
+
 
 
 ## 🔒 1. Sécurité Réseau & Filtrage (pfSense)
