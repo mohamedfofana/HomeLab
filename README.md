@@ -69,7 +69,7 @@ Mise en place de stratégies de groupe (GPO) centralisées pour sécuriser les s
 • Longueur minimale du mot de passe : 12 caractères.
 • Verrouillage du compte après 5 tentatives incorrectes.
 1. Déploiement Logiciel Centralisé : Automatisation de l'installation du package .msi (ex: 7-Zip) au démarrage de l'ordinateur.
-[📷 CAPTURE : Console gpmc.msc montrant l'application des GPOs]
+[📷 CAPTURE : Console gpmc.msc montrant l'application des GPOs] <br/>  
 ##💾 5. Plan de Continuité d'Activité (Sauvegarde AD)
 Protection de la base de données Active Directory (ntds.dit), du dossier SYSVOL, de la zone DNS et du Registre via la sauvegarde planifiée de l'État du système (System State).
 • Outil : Sauvegarde Windows Server (wbadmin).
