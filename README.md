@@ -49,7 +49,7 @@ Plutôt que d'autoriser tout le trafic LAN sans restriction, le pare-feu est con
 [📷 CAPTURE : Règles de Pare-feu pfSense ciblées]
 
 
-##🏢 2. Active Directory & Administration à Distance
+## 🏢 2. Active Directory & Administration à Distance
 • Domaine Active Directory : fofana.lab<br/>  
 • Architecture des UO : Découpage structuré (CORP > Utilisateurs, Groupes, Ordinateurs, Serveurs).<br/>  
 • Administration Sécurisée : L'administration de l'annuaire est réalisée à 100 % à distance depuis le poste client d'administration via les consoles RSAT (dsa.msc, gpmc.msc), sans session ouverte directement sur le contrôleur de domaine.<br/>  
@@ -61,7 +61,7 @@ robocopy C:\Source C:\Partages /MIR /COPYALL /DCOPY:T
 • Mappage Automatisé (GPO) : Distribution automatique du lecteur réseau Z: (\fofana.lab\Donnees) lors de la connexion des utilisateurs.
 • Ciblage au niveau de l'élément (Item-Level Targeting) : Seuls les utilisateurs membres des groupes de sécurité autorisés voient monter le lecteur réseau.
 [📷 CAPTURE : Explorateur Windows avec le lecteur Z: monté via GPO]
-##⚙️ 4. Durcissement du Parc (Hardening GPOs)
+## ⚙️ 4. Durcissement du Parc (Hardening GPOs)
 Mise en place de stratégies de groupe (GPO) centralisées pour sécuriser les sessions et les postes clients :
 1. Restriction des Outils Système : Blocage de l'accès à l'invite de commande (cmd.exe) et à l'éditeur de registre (regedit.exe) pour les comptes standards.
 2. Verrouillage de Session Automatique : Activation obligatoire de l'écran de veille protégé par mot de passe après 5 minutes (300 s) d'inactivité.
@@ -70,7 +70,7 @@ Mise en place de stratégies de groupe (GPO) centralisées pour sécuriser les s
 • Verrouillage du compte après 5 tentatives incorrectes.
 1. Déploiement Logiciel Centralisé : Automatisation de l'installation du package .msi (ex: 7-Zip) au démarrage de l'ordinateur.
 [📷 CAPTURE : Console gpmc.msc montrant l'application des GPOs] <br/>  
-##💾 5. Plan de Continuité d'Activité (Sauvegarde AD)
+## 💾 5. Plan de Continuité d'Activité (Sauvegarde AD)
 Protection de la base de données Active Directory (ntds.dit), du dossier SYSVOL, de la zone DNS et du Registre via la sauvegarde planifiée de l'État du système (System State).
 • Outil : Sauvegarde Windows Server (wbadmin).
 • Planification : Sauvegarde quotidienne automatique.
