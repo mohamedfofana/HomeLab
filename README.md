@@ -10,7 +10,7 @@ L'objectif est de démontrer les compétences d'**Administration Systèmes et R�
 
 <picture>
   <!-- Image affichée en Mode Sombre -->
-  <source media="(prefers-color-scheme: dark)" srcset="./images/lablanc.drawio.png">
+  <source media="(prefers-color-scheme: dark)" srcset="./images/Lablanc.drawio.png">
   
   <!-- Image affichée en Mode Clair (par défaut) -->
   <source media="(prefers-color-scheme: light)" srcset="./images/Lab.drawio.png">
@@ -35,14 +35,19 @@ L'objectif est de démontrer les compétences d'**Administration Systèmes et R�
 ## 🔒 1. Sécurité Réseau & Filtrage (pfSense)
 Plutôt que d'autoriser tout le trafic LAN sans restriction, le pare-feu est configuré selon le principe du moindre privilège : <br/>  
 • Filtrage des flux entrants/sortants : Suppression des règles permissives de base (Default ANY). <br/>  
-• Ouverture ciblée des flux AD : Autorisation stricte des ports indispensables au bon fonctionnement du domaine : <br/>  
-◦ DNS : Port 53 (TCP/UDP)<br/>  
-◦ Kerberos : Port 88 (TCP/UDP)<br/>  
-◦ NTP : Port 123 (UDP)<br/>  
-◦ LDAP / LDAPS : Ports 389 / 636 (TCP)<br/>  
-◦ RPC Dynamic Ports : Allocation restreinte pour l'administration distante.<br/>  
-[📷 CAPTURE : Règles de Pare-feu pfSense ciblées]
+• Ouverture ciblée des flux : <br/>  
+◦ ACL VLAN ADMIN<br/>  
+(image règle admin) <br/>  
+◦ ACL VLAN Serveur <br/>  
+(image règle srv) <br/>  
+◦ ACL VLAN PROD <br/>
+(image regle prod) <br/>  
+◦ ACL VLAN DMZ <br/>  
+(image règle dmz)
+NAT/PAT
+Relais DHCP
 
+Difficulté rencontré
 
 ## 🏢 2. Active Directory & Administration à Distance
 • Domaine Active Directory : fofana.lab<br/>  
