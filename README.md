@@ -47,7 +47,8 @@ Plutôt que d'autoriser tout le trafic LAN sans restriction, le pare-feu est con
 NAT/PAT
 Relais DHCP
 
-Difficulté rencontré
+Difficultés rencontrés :
+Par défaut le routeur Pfsense bloque les réseaux privé domestique. Lors de la configuration du routeur bien que j'ai désactivé le blocage des adresses privée et 
 
 ## 🏢 2. Active Directory & Administration à Distance
 • Domaine Active Directory : fofana.lab<br/>  
