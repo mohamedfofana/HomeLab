@@ -52,21 +52,21 @@ Poste d'administration à distance (RSAT)
 
 
 ## 🔒 1. Sécurité Réseau & Filtrage (pfSense)
-Plutôt que d'autoriser tout le trafic LAN sans restriction, le pare-feu est configuré selon le principe du moindre privilège :
-• Filtrage des flux entrants/sortants : Suppression des règles permissives de base (Default ANY).
-• Ouverture ciblée des flux AD : Autorisation stricte des ports indispensables au bon fonctionnement du domaine : 
-◦ DNS : Port 53 (TCP/UDP)
-◦ Kerberos : Port 88 (TCP/UDP)
-◦ NTP : Port 123 (UDP)
-◦ LDAP / LDAPS : Ports 389 / 636 (TCP)
-◦ RPC Dynamic Ports : Allocation restreinte pour l'administration distante.
+Plutôt que d'autoriser tout le trafic LAN sans restriction, le pare-feu est configuré selon le principe du moindre privilège : <br/>  
+• Filtrage des flux entrants/sortants : Suppression des règles permissives de base (Default ANY). <br/>  
+• Ouverture ciblée des flux AD : Autorisation stricte des ports indispensables au bon fonctionnement du domaine : <br/>  
+◦ DNS : Port 53 (TCP/UDP)<br/>  
+◦ Kerberos : Port 88 (TCP/UDP)<br/>  
+◦ NTP : Port 123 (UDP)<br/>  
+◦ LDAP / LDAPS : Ports 389 / 636 (TCP)<br/>  
+◦ RPC Dynamic Ports : Allocation restreinte pour l'administration distante.<br/>  
 [📷 CAPTURE : Règles de Pare-feu pfSense ciblées]
 
 
 ##🏢 2. Active Directory & Administration à Distance
-• Domaine Active Directory : fofana.lab
-• Architecture des UO : Découpage structuré (CORP > Utilisateurs, Groupes, Ordinateurs, Serveurs).
-• Administration Sécurisée : L'administration de l'annuaire est réalisée à 100 % à distance depuis le poste client d'administration via les consoles RSAT (dsa.msc, gpmc.msc), sans session ouverte directement sur le contrôleur de domaine.
+• Domaine Active Directory : fofana.lab<br/>  
+• Architecture des UO : Découpage structuré (CORP > Utilisateurs, Groupes, Ordinateurs, Serveurs).<br/>  
+• Administration Sécurisée : L'administration de l'annuaire est réalisée à 100 % à distance depuis le poste client d'administration via les consoles RSAT (dsa.msc, gpmc.msc), sans session ouverte directement sur le contrôleur de domaine.<br/>  
 [📷 CAPTURE : Arborescence des OU dans l'AD et console RSAT]
 ## 📁 3. Serveur de Fichiers & Autorisations NTFS
 • Migration d'Arborescence : Utilisation de l'outil en ligne de commande Robocopy pour migrer les dossiers et préserver l'intégralité des privilèges de sécurité : cmd
