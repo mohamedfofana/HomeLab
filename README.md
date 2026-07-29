@@ -8,7 +8,16 @@ L'objectif est de démontrer les compétences d'**Administration Systèmes et R�
 
 ## 📐 Architecture & Topologie Réseau
 
-![schéma réseau](C:\Users\moham\Downloads\Lab.drawio (1).png)
+<picture>
+  <!-- Image affichée en Mode Sombre -->
+  <source media="(prefers-color-scheme: dark)" srcset="C:\Users\moham\Downloads\lablanc.drawio.png">
+  
+  <!-- Image affichée en Mode Clair (par défaut) -->
+  <source media="(prefers-color-scheme: light)" srcset="C:\Users\moham\Downloads\Lab.drawio (1).png">
+  
+  <!-- Image de secours si le navigateur ne gère pas la balise -->
+  <img alt="Schéma de l'architecture" src="./images/schema-light.png">
+</picture>
 <br/>  
 
 ## 📋 Tableau de Synthèse d'Infrastructure
@@ -61,4 +70,9 @@ Protection de la base de données Active Directory (ntds.dit), du dossier SYSVOL
 • Outil : Sauvegarde Windows Server (wbadmin).
 • Planification : Sauvegarde quotidienne automatique.
 • Procédure de reprise après sinistre : Testée et validée via le mode de restauration des services d'annuaire (DSRM).
-[📷 CAPTURE : Console Sauvegarde Windows Server avec job System State réussi]
+[📷 CAPTURE : Console Sauvegarde Windows Server avec job System State réussi] <br/>  
+## 🕓À Venir
+Script PowerShell d'automatisation de création des utilisateurs AD
+Serveur Web Linux
+
+
