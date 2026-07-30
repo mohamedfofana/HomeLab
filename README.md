@@ -49,7 +49,7 @@ Plutôt que d'autoriser tout le trafic LAN sans restriction, le pare-feu est con
 ◦ Destination NAT / Inbound PAT : Configuré pour réorienter de manière ciblée le trafic entrant sur des ports spécifiques vers le serveur web situé dans la DMZ. <br/>  
 
 • Relais DHCP :
-◦ Dans une architecture segmentée en VLANs, les requêtes d'adressage dynamique (DHCP Discover) sont émises sous forme de broadcast, qui sont naturellement bloqués par le routeur aux frontières de chaque sous-réseau. Un relais DHCP a donc été configuré sur le routeur pour les VLAN Admin et Prod.
+Dans une architecture segmentée en VLANs, les requêtes d'adressage dynamique (DHCP Discover) sont émises sous forme de broadcast, qui sont naturellement bloqués par le routeur aux frontières de chaque sous-réseau. Un relais DHCP a donc été configuré sur le routeur pour les VLAN Admin et Prod.
 
 
 Difficultés rencontrés :
