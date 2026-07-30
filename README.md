@@ -43,8 +43,11 @@ Plutôt que d'autoriser tout le trafic LAN sans restriction, le pare-feu est con
 ◦ ACL VLAN PROD <br/>
 (image regle prod) <br/>  
 ◦ ACL VLAN DMZ <br/>  
-(image règle dmz)
-NAT/PAT
+(image règle dmz)<br/>  
+Traduction d'adresses : <br/>  
+-Source NAT / Outbound PAT (Masquerading) :** Mis en place pour permettre à l'ensemble des équipements des différents VLANs privés d'accéder au réseau externe (WAN/Internet) en partageant une unique adresse IP WAN.<br/>  
+-Destination NAT / Inbound PAT (Port Forwarding) : Configuré pour réorienter de manière ciblée le trafic entrant sur des ports spécifiques vers les bonnes machines et services internes (notamment pour la gestion à distance sécurisée du pare-feu).
+
 Relais DHCP
 
 Difficultés rencontrés :
