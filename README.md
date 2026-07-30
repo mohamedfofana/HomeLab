@@ -48,7 +48,7 @@ NAT/PAT
 Relais DHCP
 
 Difficultés rencontrés :
-Par défaut le routeur Pfsense bloque les réseaux privé domestique. Lors de la configuration du routeur bien que j'ai désactivé le blocage des adresses privée et 
+Par défaut le routeur Pfsense bloque les réseaux privé domestique. Lors de la configuration du routeur bien que j'ai désactivé le blocage des adresses privée et bogon. Cependant, par sécurité, l'interface WAN a une politique de filtrage qui bloque tout par défaut ce qui m'empêchait de me connecter sur l'interface WAN. J'ai donc du creer une règle de filtrage autorisant mon PC personnel à s'y connecter.  <br/>  
 
 ## 🏢 2. Active Directory & Administration à Distance
 • Domaine Active Directory : fofana.lab<br/>  
