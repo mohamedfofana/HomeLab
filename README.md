@@ -30,60 +30,111 @@ L'objectif est de démontrer les compétences d'**Administration Systèmes et R�
 | PC-PROD | Windows Client | DHCP | Simulation poste utilisateurs |
 | SRV-WEB | Linux |10.0.40.10 |Serveur Web |
 
-
+---
 
 ## 🔒 1. Sécurité Réseau & Filtrage (pfSense)
 Plutôt que d'autoriser tout le trafic LAN sans restriction, le pare-feu est configuré selon le principe du moindre privilège : <br/>  
  Filtrage des flux entrants/sortants : Suppression des règles permissives de base (Default ANY). <br/>  
-• Ouverture ciblée des flux : <br/>  
-◦ ACL VLAN ADMIN<br/>  
+* **Ouverture ciblée des flux :** <br/>  
+  * ACL VLAN ADMIN<br/>  
 (image règle admin) <br/>  
-◦ ACL VLAN Serveur <br/>  
+  * ACL VLAN Serveur <br/>  
 (image règle srv) <br/>  
-◦ ACL VLAN PROD <br/>
+  * ACL VLAN PROD <br/>
 (image regle prod) <br/>  
-◦ ACL VLAN DMZ <br/>  
+  * ACL VLAN DMZ <br/>  
 (image règle dmz)<br/>  
-• Traduction d'adresses : <br/>  
-◦ Source NAT / Outbound PAT : Mis en place pour permettre à l'ensemble de équipements des différents VLANs privés d'accéder au réseau externe en partageant une unique adresse IP WAN.<br/>  
-◦ Destination NAT / Inbound PAT : Configuré pour réorienter de manière ciblée le trafic entrant sur des ports spécifiques vers le serveur web situé dans la DMZ. <br/>  
+**Traduction d'adresses :** <br/>  
+  * Source NAT / Outbound PAT : Mis en place pour permettre à l'ensemble de équipements des différents VLANs privés d'accéder au réseau externe en partageant une unique adresse IP WAN.<br/>  
+  * Destination NAT / Inbound PAT : Configuré pour réorienter de manière ciblée le trafic entrant sur des ports spécifiques vers le serveur web situé dans la DMZ. <br/>  
 
-• Relais DHCP :
+* **Relais DHCP :**
 Dans une architecture segmentée en VLANs, les requêtes d'adressage dynamique (DHCP Discover) sont émises sous forme de broadcast, qui sont naturellement bloqués par le routeur aux frontières de chaque sous-réseau. Un relais DHCP a donc été configuré sur le routeur pour les VLAN Admin et Prod.
 
 
-Difficultés rencontrés :
+**Difficultés rencontrés :**
 Par défaut le routeur Pfsense bloque les réseaux privé domestique. Lors de la configuration du routeur bien que j'ai désactivé le blocage des adresses privée et bogon. Cependant, par sécurité, l'interface WAN a une politique de filtrage qui bloque tout par défaut ce qui m'empêchait de me connecter sur l'interface WAN. J'ai donc du creer une règle de filtrage autorisant mon PC personnel à s'y connecter.  <br/>  
 
-## 🏢 2. Active Directory & Administration à Distance
-• Domaine Active Directory : fofana.lab<br/>  
-• Architecture des UO : Découpage structuré (CORP > Utilisateurs, Groupes, Ordinateurs, Serveurs).<br/>  
-• Administration Sécurisée : L'administration de l'annuaire est réalisée à 100 % à distance depuis le poste client d'administration via les consoles RSAT (dsa.msc, gpmc.msc), sans session ouverte directement sur le contrôleur de domaine.<br/>  
-[📷 CAPTURE : Arborescence des OU dans l'AD et console RSAT]
-## 📁 3. Serveur de Fichiers & Autorisations NTFS
-• Migration d'Arborescence : Utilisation de l'outil en ligne de commande Robocopy pour migrer les dossiers et préserver l'intégralité des privilèges de sécurité : cmd
-robocopy C:\Source C:\Partages /MIR /COPYALL /DCOPY:T
+---
 
-• Mappage Automatisé (GPO) : Distribution automatique du lecteur réseau Z: (\fofana.lab\Donnees) lors de la connexion des utilisateurs.
-• Ciblage au niveau de l'élément (Item-Level Targeting) : Seuls les utilisateurs membres des groupes de sécurité autorisés voient monter le lecteur réseau.
-[📷 CAPTURE : Explorateur Windows avec le lecteur Z: monté via GPO]
-## ⚙️ 4. Durcissement du Parc (Hardening GPOs)
-Mise en place de stratégies de groupe (GPO) centralisées pour sécuriser les sessions et les postes clients :
-1. Restriction des Outils Système : Blocage de l'accès à l'invite de commande (cmd.exe) et à l'éditeur de registre (regedit.exe) pour les comptes standards.
-2. Verrouillage de Session Automatique : Activation obligatoire de l'écran de veille protégé par mot de passe après 5 minutes (300 s) d'inactivité.
-3. Politique Anti-Brute-Force (Default Domain Policy) :
-• Longueur minimale du mot de passe : 12 caractères.
-• Verrouillage du compte après 5 tentatives incorrectes.
-1. Déploiement Logiciel Centralisé : Automatisation de l'installation du package .msi (ex: 7-Zip) au démarrage de l'ordinateur.
-[📷 CAPTURE : Console gpmc.msc montrant l'application des GPOs] <br/>  
-## 💾 5. Plan de Continuité d'Activité (Sauvegarde AD)
-Protection de la base de données Active Directory (ntds.dit), du dossier SYSVOL, de la zone DNS et du Registre via la sauvegarde planifiée de l'État du système (System State).
-• Outil : Sauvegarde Windows Server (wbadmin).
-• Planification : Sauvegarde quotidienne automatique.
-• Procédure de reprise après sinistre : Testée et validée via le mode de restauration des services d'annuaire (DSRM).
-[📷 CAPTURE : Console Sauvegarde Windows Server avec job System State réussi] <br/>  
-## 🕓À Venir
-Script PowerShell d'automatisation de création des utilisateurs AD
-Serveur Web Linux
+## 🏢 2. Active Directory & Services Réseau (SRV-AD)
 
+Mise en place du cœur de l'annuaire d'entreprise et des services d'infrastructure de base :
+
+* **Services Installés :**
+  * **AD DS :** Domaine principal `fofana.lab`.
+  * **DNS :** Gestion de la résolution de noms interne et des zones de recherche directe/inverse.
+  * **DHCP :** Gestion de l'adressage IP dynamique relayé par pfSense pour les sous-réseaux clients.
+
+* **Arborescence des Unités d'Organisation (UO) :**
+  * Organisation structurée pour préparer l'application des stratégies de groupe (`Fofana` > `Utilisateurs`, `Groupes`, `Ordinateurs`, `Serveurs`).
+
+(Image arborescence des UO dans AD DS)
+
+(Image configuration du serveur DNS et étendue DHCP)
+
+* **Difficultés rencontrées / Remarques :**
+  * Ne pas oublier d'activer le service DHCP
+  * Ajout du serveur web après création de celui-ci
+  * Ajout d'un serveur DNS publique dans les Redirecteurs 
+
+---
+
+## ⚡ 3. Automatisation & Scripting PowerShell
+
+Automatisation de l'intégration des collaborateurs pour éviter la création manuelle et réduire les erreurs humaines :
+
+* **Script d'importation massive (`.ps1`) :**
+  * Lecture automatique d'un fichier source `.csv` contenant les identités des nouveaux employés.
+  * Création automatique des comptes utilisateurs Active Directory dans les bonnes UO.
+  * Attribution des groupes de sécurité et création dynamique de leur dossier personnel avec droits NTFS adaptés.
+
+(Image execution du script PowerShell dans la console)
+
+(Image résultat des utilisateurs créés dans la console Active Directory)
+
+** Difficultés rencontrées / Remarques :**
+
+
+
+## ⚙️ 4. Stratégies de Groupe (GPO) & Durcissement (Hardening)
+Sécurisation centralisée du parc de machines et automatisation de l'environnement de travail utilisateur :
+
+* **GPOs de Sécurité (Hardening) :**
+
+  * Politique de mot de passe : Exigence de complexité, 12 caractères min., et verrouillage de compte après 5 tentatives infructueuses (Default Domain Policy).
+
+  * Restriction Outils Système : Blocage de l'accès à l'invite de commande (cmd.exe) et à l'éditeur de registre (regedit.exe) pour les comptes non-admin.
+
+* **GPOs de Configuration Utilisateur :**
+
+  * Mappage de lecteur réseau (Z:) : Montage automatique du partage de fichiers au démarrage.
+
+  * Déploiement Logiciel : Automatisation de l'installation de 7zip .msi au démarrage de la machine.
+
+(Image console gpmc.msc montrant les GPOs créées)
+
+(Image test de restriction ou du lecteur réseau Z: sur PC-PROD) 
+
+Difficultés rencontrées :
+[Explication courte : ex. délai de rafraîchissement des GPOs sur le poste client résolu via gpupdate /force ou ajustement des droits NTFS sur les dossiers partagés.]
+
+## 💾 5. Sauvegarde & Plan de Continuité (System State AD)
+Mise en place d'une stratégie de sauvegarde d'urgence pour le contrôleur de domaine (Active Directory) :
+
+Sauvegarde d'État du Système (System State) :
+
+Utilisation de la fonctionnalité Sauvegarde Windows Server (wbadmin).
+
+Protection de la base Active Directory, du dossier SYSVOL, de la zone DNS et du Registre Windows.
+
+Planification régulière des sauvegardes sur un volume disque dédié.
+
+(Image console de Sauvegarde Windows Server affichant le statut "Réussi")
+
+Difficultés rencontrées :
+[Explication courte : ex. nécessité d'ajouter un volume disque virtuel dédié non inclus dans la sauvegarde pour pouvoir stocker l'image System State.]
+
+## 🕓 À venir
+DMZ -> Serveur web
 
