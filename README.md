@@ -37,13 +37,13 @@ Plutôt que d'autoriser tout le trafic LAN sans restriction, le pare-feu est con
  Filtrage des flux entrants/sortants : Suppression des règles permissives de base (Default ANY). <br/>  
 * **Ouverture ciblée des flux :** <br/>  
   * ACL VLAN ADMIN<br/>  
-(image règle admin) <br/>  
+![image règle admin](./images/ACL_ADMIN.png) <br/>  
   * ACL VLAN Serveur <br/>  
-(image règle srv) <br/>  
+![image règle srv](./images/ACL_SRV.png) <br/>  
   * ACL VLAN PROD <br/>
-(image regle prod) <br/>  
+![image regle prod](./images/ACL_PROD.png) <br/>  
   * ACL VLAN DMZ <br/>  
-(image règle dmz)<br/>  
+![image règle dmz](./images/ACL_DMZ.png)<br/>  
 **Traduction d'adresses :** <br/>  
   * Source NAT / Outbound PAT : Mis en place pour permettre à l'ensemble de équipements des différents VLANs privés d'accéder au réseau externe en partageant une unique adresse IP WAN.<br/>  
   * Destination NAT / Inbound PAT : Configuré pour réorienter de manière ciblée le trafic entrant sur des ports spécifiques vers le serveur web situé dans la DMZ. <br/>  
@@ -95,7 +95,7 @@ Automatisation de l'intégration des collaborateurs pour éviter la création ma
 
 ** Difficultés rencontrées / Remarques :**
 
-
+---
 
 ## ⚙️ 4. Stratégies de Groupe (GPO) & Durcissement (Hardening)
 Sécurisation centralisée du parc de machines et automatisation de l'environnement de travail utilisateur :
@@ -118,6 +118,8 @@ Sécurisation centralisée du parc de machines et automatisation de l'environnem
 
 Difficultés rencontrées :
 [Explication courte : ex. délai de rafraîchissement des GPOs sur le poste client résolu via gpupdate /force ou ajustement des droits NTFS sur les dossiers partagés.]
+
+---
 
 ## 💾 5. Sauvegarde & Plan de Continuité (System State AD)
 Mise en place d'une stratégie de sauvegarde d'urgence pour le contrôleur de domaine (Active Directory) :
