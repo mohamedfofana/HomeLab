@@ -91,6 +91,8 @@ Automatisation de l'intégration des collaborateurs pour éviter la création ma
   * Lecture automatique d'un fichier source `.csv` contenant les identités des nouveaux employés.
   * Création automatique des comptes utilisateurs Active Directory dans les bonnes UO.
   * Attribution des groupes de sécurité et création dynamique de leur dossier personnel avec droits NTFS adaptés.
+ 
+📜 [Cliquez ici pour consulter le script PowerShell complet](./scripts/ScriptAddUser.ps1)
 
 ![Image execution du script PowerShell dans la console](./images/script.png)
 
