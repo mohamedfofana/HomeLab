@@ -49,10 +49,10 @@ Plutôt que d'autoriser tout le trafic LAN sans restriction, le pare-feu est con
   * Destination NAT / Inbound PAT : Configuré pour réorienter de manière ciblée le trafic entrant sur des ports spécifiques vers le serveur web situé dans la DMZ. <br/>  
 
 * **Relais DHCP :**
-Dans une architecture segmentée en VLANs, les requêtes d'adressage dynamique (DHCP Discover) sont émises sous forme de broadcast, qui sont naturellement bloqués par le routeur aux frontières de chaque sous-réseau. Un relais DHCP a donc été configuré sur le routeur pour les VLAN Admin et Prod.
+Dans une architecture segmentée en VLANs, les requêtes d'adressage dynamique (DHCP Discover) sont émises sous forme de broadcast, qui sont naturellement bloqués par le routeur de chaque sous-réseau. Un relais DHCP a donc été configuré sur le routeur pour les VLAN Admin et Prod.
 
 
-**Difficultés rencontrés :**
+**Difficultés rencontrés / Remarques :**
 Par défaut le routeur Pfsense bloque les réseaux privé domestique. Lors de la configuration du routeur bien que j'ai désactivé le blocage des adresses privée et bogon. Cependant, par sécurité, l'interface WAN a une politique de filtrage qui bloque tout par défaut ce qui m'empêchait de me connecter sur l'interface WAN. J'ai donc du creer une règle de filtrage autorisant mon PC personnel à s'y connecter.  <br/>  
 
 ---
@@ -77,7 +77,7 @@ Mise en place du cœur de l'annuaire d'entreprise et des services d'infrastructu
 ![Image arborescence des UO dans AD](./images/AD.png)
 
 * **Difficultés rencontrées / Remarques :**
-  * Ne pas oublier d'activer le service DHCP
+  * Après la création d'une étendu le service DHCP ne s'active pas automatiquement il faut l'activer manuellement
   * Ajout du serveur web après création de celui-ci
   * Ajout d'un serveur DNS publique dans les Redirecteurs 
 
@@ -99,6 +99,8 @@ Automatisation de l'intégration des collaborateurs pour éviter la création ma
 ![Image résultat des utilisateurs créés dans la console Active Directory](./images/AD.png)
 
 ** Difficultés rencontrées / Remarques :**
+
+Recherche de certaines commandes comme l'ajout du lecteur réseau ou au groupe sur internet et intelligence artificiel et utilisation d'un point de contrôle avant l'exécution du script. 
 
 ---
 
@@ -122,8 +124,8 @@ Sécurisation centralisée du parc de machines et automatisation de l'environnem
 
 ![Image test de restriction et du lecteur réseau Z: sur PC-PROD](./images/gpo_result.png) 
 
-Difficultés rencontrées :
-[Explication courte : ex. délai de rafraîchissement des GPOs sur le poste client résolu via gpupdate /force ou ajustement des droits NTFS sur les dossiers partagés.]
+**Difficultés rencontrées / Remarques :**
+Recherche de l'emplacement de certaines paramètres de GPO sur internet
 
 ---
 
@@ -140,6 +142,11 @@ Mise en place d'une stratégie de sauvegarde pour le contrôleur de domaine (Act
   * Isolement du volume de sauvegarde pour prévenir les altérations.
 
 ![Image console de Sauvegarde Windows Server affichant le statut "Réussi"](./images/sauvegarde.png)
+
+**Difficultés rencontrées / Remarques :**
+Cette manipulation à nécessité d'ajouter un volume disque virtuel dédié non inclus dans la sauvegarde pour pouvoir stocker l'image System State.
+
+---
 
 ## 🕓 À venir
 DMZ -> Serveur web
