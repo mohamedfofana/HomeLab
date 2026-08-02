@@ -66,12 +66,15 @@ Mise en place du cœur de l'annuaire d'entreprise et des services d'infrastructu
   * **DNS :** Gestion de la résolution de noms interne et des zones de recherche directe/inverse.
   * **DHCP :** Gestion de l'adressage IP dynamique relayé par pfSense pour les sous-réseaux clients.
 
+![image services](./images/services.png)
+![image dns](./images/dns.png)
+![image étendu](./images/étendu.png)
+![image option dhcp](./images/dhcp.png)
+
 * **Arborescence des Unités d'Organisation (UO) :**
   * Organisation structurée pour préparer l'application des stratégies de groupe (`Fofana` > `Utilisateurs`, `Groupes`, `Ordinateurs`, `Serveurs`).
 
-(Image arborescence des UO dans AD DS)
-
-(Image configuration du serveur DNS et étendue DHCP)
+![Image arborescence des UO dans AD](./images/AD.png)
 
 * **Difficultés rencontrées / Remarques :**
   * Ne pas oublier d'activer le service DHCP
@@ -89,9 +92,9 @@ Automatisation de l'intégration des collaborateurs pour éviter la création ma
   * Création automatique des comptes utilisateurs Active Directory dans les bonnes UO.
   * Attribution des groupes de sécurité et création dynamique de leur dossier personnel avec droits NTFS adaptés.
 
-(Image execution du script PowerShell dans la console)
+![Image execution du script PowerShell dans la console](./images/script.png)
 
-(Image résultat des utilisateurs créés dans la console Active Directory)
+![Image résultat des utilisateurs créés dans la console Active Directory](./images/AD.png)
 
 ** Difficultés rencontrées / Remarques :**
 
@@ -112,9 +115,10 @@ Sécurisation centralisée du parc de machines et automatisation de l'environnem
 
   * Déploiement Logiciel : Automatisation de l'installation de 7zip .msi au démarrage de la machine.
 
-(Image console gpmc.msc montrant les GPOs créées)
+![Image console gpmc.msc montrant les GPOs créées](./images/gpo.png)
 
-(Image test de restriction ou du lecteur réseau Z: sur PC-PROD) 
+
+![Image test de restriction et du lecteur réseau Z: sur PC-PROD](./images/gpo_result.png) 
 
 Difficultés rencontrées :
 [Explication courte : ex. délai de rafraîchissement des GPOs sur le poste client résolu via gpupdate /force ou ajustement des droits NTFS sur les dossiers partagés.]
@@ -122,20 +126,18 @@ Difficultés rencontrées :
 ---
 
 ## 💾 5. Sauvegarde & Plan de Continuité (System State AD)
-Mise en place d'une stratégie de sauvegarde d'urgence pour le contrôleur de domaine (Active Directory) :
+Mise en place d'une stratégie de sauvegarde pour le contrôleur de domaine (Active Directory) :
 
-Sauvegarde d'État du Système (System State) :
+* **Sauvegarde d'État du Système (System State) :**
+  * Utilisation de l'outil natif `Windows Server Backup`.
+  * Protection intégrale de la base Active Directory, du répertoire `SYSVOL`, du Registre et des zones DNS.
+  * Planification automatisée vers un volume disque dédié.
 
-Utilisation de la fonctionnalité Sauvegarde Windows Server (wbadmin).
+* **Précautions & Bonnes Pratiques appliquées :**
+  * Activation de la **Corbeille Active Directory** pour la restauration rapide d'objets supprimés sans interruption de service.
+  * Isolement du volume de sauvegarde pour prévenir les altérations.
 
-Protection de la base Active Directory, du dossier SYSVOL, de la zone DNS et du Registre Windows.
-
-Planification régulière des sauvegardes sur un volume disque dédié.
-
-(Image console de Sauvegarde Windows Server affichant le statut "Réussi")
-
-Difficultés rencontrées :
-[Explication courte : ex. nécessité d'ajouter un volume disque virtuel dédié non inclus dans la sauvegarde pour pouvoir stocker l'image System State.]
+![Image console de Sauvegarde Windows Server affichant le statut "Réussi"](./images/sauvegarde.png)
 
 ## 🕓 À venir
 DMZ -> Serveur web
