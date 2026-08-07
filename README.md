@@ -172,8 +172,6 @@ Automatisation de l'exécution via une tâche planifiée (cron).
 
 [Image execution du script Bash et vérification du dossier de sauvegarde](./images/script_web.png)
 
-[Image vérification du dossier de sauvegarde](./images/bckup_web.png)
-
 **Difficultés rencontrées / Remarques :**
   * Le prompt de la page web a été configuré par l'intelligence artificielle
   * Les droits du script doivent être modifié afin de le rendre exécutable
