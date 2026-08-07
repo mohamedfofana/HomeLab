@@ -166,7 +166,7 @@ Sauvegarde Automatisée du Serveur Web (Bash) :
 Automatisation de l'exécution via une tâche planifiée (cron).
 
 
-[Cliquez ici pour consulter le script Bash complet](./scripts/backup_web.sh)
+📜 [Cliquez ici pour consulter le script Bash complet](./scripts/backup_web.sh)
 
 [Image page web accessible depuis le client](./images/web.png)
 
