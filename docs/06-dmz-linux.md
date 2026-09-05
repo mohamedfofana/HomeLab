@@ -21,7 +21,7 @@ Automatisation de l'exécution via une tâche planifiée (cron).
 
 ![Image execution du script Bash et vérification du dossier de sauvegarde](./images/script_web.png)
 
-!!! warning Difficultés rencontrées / Remarques :
+!!! warning "Difficultés rencontrées / Remarques :"
   * Le prompt de la page web a été configuré par l'intelligence artificielle
   * Les droits du script doivent être modifié afin de le rendre exécutable
   * La page web est également accessible depuis mon poste personnel via l'adresse de l'interface WAN du routeur
