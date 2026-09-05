@@ -16,7 +16,7 @@ L'objectif est de démontrer les compétences d'**Administration Systèmes et R�
   <source media="(prefers-color-scheme: light)" srcset="./images/Lab.drawio.png">
   
   <!-- Image de secours si le navigateur ne gère pas la balise -->
-  <img alt="Schéma de l'architecture" src="./images/schema-light.png">
+  <img alt="Schéma de l'architecture" src="./images/Lab.drawio.png">
 </picture>
 <br/>  
 
