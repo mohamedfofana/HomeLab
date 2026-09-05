@@ -1,0 +1,47 @@
+site_name: Mohamed FOFANA | Portfolio
+site_description: Documentation technique de déploiement et sécurisation d'infrastructure système & réseau.
+site_author: Mohamed FOFANA
+site_url: https://mohamedfofana.github.io/HomeLab/
+
+theme:
+  name: material
+  language: fr
+  palette:
+    # Mode sombre (slate) par défaut
+    - scheme: slate
+      primary: indigo
+      accent: blue
+      toggle:
+        icon: material/brightness-4
+        name: Passer au mode clair
+    # Option mode clair
+    - scheme: default
+      primary: indigo
+      accent: blue
+      toggle:
+        icon: material/brightness-7
+        name: Passer au mode sombre
+  features:
+    - navigation.tabs          # Barre d'onglets principale en haut
+    - navigation.sections      # Sections dépliables dans le menu
+    - navigation.top           # Bouton "Retour en haut"
+    - navigation.instant       # Navigation fluide sans rechargement
+    - content.code.copy        # Bouton "Copier le code" sur chaque script
+    - search.suggest           # Autocomplétion dans la barre de recherche
+    - search.highlight         # Surlignage des mots cherchés
+
+nav:
+  - 🏠 Accueil & Architecture: index.md
+  - 🔒 1. Sécurité Réseau & Filtrage (pfSense): 01-pfsense.md
+  - 🏢 2. Active Directory & Services Réseau: 02-active-directory.md
+  - ⚡ 3. Automation PowerShell: 03-powershell.md
+  - ⚙️ 4. GPO: 04-gpo.md
+  - 💾 5. Sauvegarde & Plan de Continuité (System State AD): 05-sauvegarde.md
+  - 🐧 6. Zone Démilitarisée (DMZ) & Serveur Web Linux (SRV-WEB): 06-dmz-linux.md
+
+markdown_extensions:
+  - admonition               # Blocs d'avertissement / remarques (!!! note, !!! warning)
+  - pymdownx.details          # Blocs déroulants
+  - pymdownx.superfences       # Blocs de code avancés
+  - pymdownx.highlight:
+      anchor_linenums: true
