@@ -7,12 +7,12 @@ theme:
   name: material
   language: fr
   palette:
-    - media: "(prefers-color-scheme: dark)"
-      scheme: slate
-      primary: indigo
-      accent: blue
     - media: "(prefers-color-scheme: light)"
       scheme: default
+      primary: indigo
+      accent: blue
+    - media: "(prefers-color-scheme: dark)"
+      scheme: slate
       primary: indigo
       accent: blue
   features:
