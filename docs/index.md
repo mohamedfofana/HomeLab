@@ -80,19 +80,20 @@
 </div>
 
 !!! note "Technicien d'exploitation N2 — INTM (10/25 — Présent)"
-    **Support & Incidents :** 
-    <ul>
+    **Support & Incidents :** <br>
       <li>Prise en charge du support N2 des incidents sur postes de travails pour les utilisateurs, résolution des tickets d'incidents d'infrastructure
       <li>Traitements des demandes utilisateurs
       <li>Résolution des incidents N2 de téléphonie mobile et d’impression
       <li>Diagnostic des incidents réseaux
       <li>Prise en compte et résolutions d’incident en astreinte
       <li>Rédaction de procédure <br>
+      <br>
     **Infrastuctures :** <br>
        <li>Gestions du parc d'imprimantes
        <li>Projet de déploiement d’affichage dynamique (configuration, suivi et résolution d’incidents)
        <li>Adressage IP des nouveaux équipements réseaux
        <li>Création demande d’ouverture de flux pour des périphériques informatiques <br>
+       <br>
     **Surveillances et Sauvegardes :** <br>
       <li>Surveillance des serveurs bureautiques et de téléphonies via l'outil SCOM
       <li>Surveillance du déploiement des CSP via Inthune
