@@ -17,7 +17,7 @@
 <div align="center">
 <h2 style="border-bottom: 0.05rem solid var(--md-default-fg-color--lightest); padding-bottom: 0.4rem;">🛠️ Domaines de compétences</h2>
 </div>
-<div align="center" style="display: grid; grid-template-columns: repeat(auto-fit, minmax(220px, 1fr)); gap: 1.5rem; margin-top: 1.5rem;">
+<div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(220px, 1fr)); gap: 1.5rem; margin-top: 1.5rem;">
 
   <!-- Réseau & Infrastructure (Bleu / Cyan) -->
   <div>
