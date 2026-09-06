@@ -1,15 +1,15 @@
 <div align="center" style="margin-bottom: 30px;">
-  <img src="images/imgcv.jpg" alt="Mohamed FOFANA" style="width: 130px; height: 130px; border-radius: 50%; object-fit: cover; border: 3px solid #3f51b5; margin-bottom: 15px;">
+  <img src="./images/imgcv.jpg" alt="Mohamed FOFANA" style="width: 130px; height: 130px; border-radius: 50%; object-fit: cover; border: 3px solid #3f51b5; margin-bottom: 15px;">
 
   <h1 style="margin: 0; font-size: 2.2em;">MOHAMED FOFANA</h1>
-  <p style="font-size: 1.1em; color: #3F0FB7; margin-top: 5px;"><strong>PORTFOLIO · SYSTÈMES · RÉSEAUX</strong></p>
+  <p style="font-size: 1.1em; color: #4051b5; margin-top: 5px;"><strong>PORTFOLIO · SYSTÈMES · RÉSEAUX</strong></p>
   
   <p style="font-size: 0.9em; opacity: 0.8;">
     <code>De Technicien à Administrateur</code>
   </p>
 
   <div style="margin-top: 20px; display: flex; justify-content: center; gap: 10px; flex-wrap: wrap;">
-    <a href="CV.pdf" target="_blank" class="md-button md-button--primary">📄 Mon CV (PDF)</a>
+    <a href="./CV.pdf" target="_blank" class="md-button md-button--primary">📄 Mon CV (PDF)</a>
   </div>
 </div>
 
