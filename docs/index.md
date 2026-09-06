@@ -21,7 +21,7 @@
 
   <!-- Réseau & Infrastructure (Bleu / Cyan) -->
   <div>
-    <h3 style="color: #38bdf8 !important; margin-bottom: 0.8rem; font-weight: bold; font-size: 1.0rem; border-bottom: 2px solid #38bdf8; padding-bottom: 0.4rem;">Réseau & Infrastructure</h3>
+    <h3 style="color: #38bdf8 !important; margin-bottom: 0.8rem; font-weight: bold; font-size: 0.9rem; border-bottom: 2px solid #38bdf8; padding-bottom: 0.4rem;">Réseau & Infrastructure</h3>
     <div style="display: flex; flex-wrap: wrap; gap: 6px;">
       <span style="background: rgba(56, 189, 248, 0.15); color: #38bdf8; border: 1px solid rgba(56, 189, 248, 0.3); border-radius: 4px; padding: 3px 8px; font-size: 0.8rem; font-family: monospace;">VLAN</span>
       <span style="background: rgba(56, 189, 248, 0.15); color: #38bdf8; border: 1px solid rgba(56, 189, 248, 0.3); border-radius: 4px; padding: 3px 8px; font-size: 0.8rem; font-family: monospace;">Routage & ACL</span>
@@ -33,7 +33,7 @@
 
   <!-- Systèmes & Virtualisation (Bleu Clair) -->
   <div>
-    <h3 style="color: #60a5fa !important; margin-bottom: 0.8rem; font-weight: bold; font-size: 1.0rem; border-bottom: 2px solid #60a5fa; padding-bottom: 0.4rem;">Systèmes & Virtualisation</h3>
+    <h3 style="color: #60a5fa !important; margin-bottom: 0.8rem; font-weight: bold; font-size: 0.9rem; border-bottom: 2px solid #60a5fa; padding-bottom: 0.4rem;">Systèmes & Virtualisation</h3>
     <div style="display: flex; flex-wrap: wrap; gap: 6px;">
       <span style="background: rgba(96, 165, 250, 0.15); color: #60a5fa; border: 1px solid rgba(96, 165, 250, 0.3); border-radius: 4px; padding: 3px 8px; font-size: 0.8rem; font-family: monospace;">Windows Server</span>
       <span style="background: rgba(96, 165, 250, 0.15); color: #60a5fa; border: 1px solid rgba(96, 165, 250, 0.3); border-radius: 4px; padding: 3px 8px; font-size: 0.8rem; font-family: monospace;">Linux (Debian)</span>
@@ -45,7 +45,7 @@
 
   <!-- Sécurité (Bleu Indigo) -->
   <div>
-    <h3 style="color: #818cf8 !important; margin-bottom: 0.8rem; font-weight: bold; font-size: 1.0rem; border-bottom: 2px solid #818cf8; padding-bottom: 0.4rem;">Sécurité</h3>
+    <h3 style="color: #818cf8 !important; margin-bottom: 0.8rem; font-weight: bold; font-size: 0.9rem; border-bottom: 2px solid #818cf8; padding-bottom: 0.4rem;">Sécurité</h3>
     <div style="display: flex; flex-wrap: wrap; gap: 6px;">
       <span style="background: rgba(129, 140, 248, 0.15); color: #818cf8; border: 1px solid rgba(129, 140, 248, 0.3); border-radius: 4px; padding: 3px 8px; font-size: 0.8rem; font-family: monospace;">pfSense / OPNsense</span>
       <span style="background: rgba(129, 140, 248, 0.15); color: #818cf8; border: 1px solid rgba(129, 140, 248, 0.3); border-radius: 4px; padding: 3px 8px; font-size: 0.8rem; font-family: monospace;">DMZ</span>
@@ -55,7 +55,7 @@
 
   <!-- Supervision (Violet) -->
   <div>
-    <h3 style="color: #c084fc !important; margin-bottom: 0.8rem; font-weight: bold; font-size: 1.0rem; border-bottom: 2px solid #c084fc; padding-bottom: 0.4rem;">Supervision</h3>
+    <h3 style="color: #c084fc !important; margin-bottom: 0.8rem; font-weight: bold; font-size: 0.9rem; border-bottom: 2px solid #c084fc; padding-bottom: 0.4rem;">Supervision</h3>
     <div style="display: flex; flex-wrap: wrap; gap: 6px;">
       <span style="background: rgba(192, 132, 252, 0.15); color: #c084fc; border: 1px solid rgba(192, 132, 252, 0.3); border-radius: 4px; padding: 3px 8px; font-size: 0.8rem; font-family: monospace;">Zabbix</span>
     </div>
@@ -63,7 +63,7 @@
 
   <!-- Gouvernance & Méthode (Orange) -->
   <div>
-    <h3 style="color: #fb923c !important; margin-bottom: 0.8rem; font-weight: bold; font-size: 1.0rem; border-bottom: 2px solid #fb923c; padding-bottom: 0.4rem;">Gouvernance & Méthode</h3>
+    <h3 style="color: #fb923c !important; margin-bottom: 0.8rem; font-weight: bold; font-size: 0.9rem; border-bottom: 2px solid #fb923c; padding-bottom: 0.4rem;">Gouvernance & Méthode</h3>
     <div style="display: flex; flex-wrap: wrap; gap: 6px;">
       <span style="background: rgba(251, 146, 60, 0.15); color: #fb923c; border: 1px solid rgba(251, 146, 60, 0.3); border-radius: 4px; padding: 3px 8px; font-size: 0.8rem; font-family: monospace;">PRA / PCA</span>
       <span style="background: rgba(251, 146, 60, 0.15); color: #fb923c; border: 1px solid rgba(251, 146, 60, 0.3); border-radius: 4px; padding: 3px 8px; font-size: 0.8rem; font-family: monospace;">RGPD</span>
@@ -80,13 +80,33 @@
 </div>
 
 !!! note "Technicien d'exploitation N2 — INTM (10/25 — Présent)"
-    * **Support & Incidents :** Prise en charge du support N2 des incidents sur postes de travails pour les utilisateurs, résolution des tickets d'incidents d'infrastructure. <br>
-    Traitements des demandes utilisateurs. <br>
-    
-    * **Administration d'annuaire :** Gestion quotidienne des objets Active Directory (création de comptes, droits d'accès, reinitialisation).
-    * **Déploiement Postes :** Masterisation et préparation des postes de travail clients, intégration au domaine d'entreprise.
-    * **Réseau :** Brassage de baies de brassage, suivi des adresses IP et diagnostic de connectivité N1/N2.
+    **Support & Incidents :** <br>
+    * Prise en charge du support N2 des incidents sur postes de travails pour les utilisateurs, résolution des tickets d'incidents d'infrastructure <br>
+    * Traitements des demandes utilisateurs <br>
+    * Résolution des incidents N2 de téléphonie mobile et d’impression <br>
+    * Diagnostic des incidents réseaux
+    * Prise en compte et résolutions d’incident en astreinte <br>
+    * Rédaction de procédure
+    **Infrastuctures :** <br>
+    * Gestions du parc d'imprimantes
+    * Projet de déploiement d’affichage dynamique (configuration, suivi et résolution d’incident)
+    * Adressage IP des nouveaux équipements réseaux
+    * Création demande d’ouverture de flux pour des périphériques informatiques
+    **Surveillances et Sauvegardes :** 
+    * Surveillance des serveurs bureautiques et de téléphonies via l'outil SCOM
+    * Surveillance du déploiement des CSP via Inthune
+    * Sauvegarde serveur LDAP via script PowerShell
 
+!!! note "Stagiaire Technicien support — Mairie de Cugnaux (2024 — 3 mois)
+    **Support & Incidents :**
+    * Prise en compte et résolutions d’incidents sur GLPI et Hotline
+    * Support de proximité
+    * Support à distance
+    **Infrastructures :**
+    * Déploiement de poste de travail
+    * Configuration de switch CISCO
+    * Suivi de procédure de configuration d'installation de téléphone fixe sur 3CX
+    * Diagnostique de problèmes réseau
 ---
 
 ## ℹ️ À propos de ce portfolio
