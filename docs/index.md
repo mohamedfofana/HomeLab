@@ -1,8 +1,8 @@
 <div align="center" style="margin-bottom: 30px;">
   <img src="./images/imgcv.jpg" alt="Mohamed FOFANA" style="width: 130px; height: 130px; border-radius: 50%; object-fit: cover; border: 3px solid #3f51b5; margin-bottom: 15px;">
 
-  <h1 style="margin: 0; font-size: 2.2em;">MOHAMED FOFANA</h1>
-  <p style="font-size: 1.1em; color: #4051b5; margin-top: 5px;"><strong>PORTFOLIO · SYSTÈMES · RÉSEAUX</strong></p>
+  <h1 style="margin: 0; font-size: 2.2em;">Mohmed Fofana</h1>
+  <p style="font-size: 1.0em; color: #4051b5; margin-top: 5px;"><strong>PORTFOLIO · SYSTÈMES · RÉSEAUX</strong></p>
   
   <p style="font-size: 0.9em; opacity: 0.8;">
     <code>De Technicien à Administrateur</code>
@@ -17,8 +17,12 @@
 
 ## 🛠️ Domaines de compétences
 
-### 🌐 Réseau & Infrastructure
-<code>VLAN</code> <code>Routage & ACL</code> <code>LACP</code> <code>DNS / DHCP</code>
+::: grid
+:card:
+### <span style="color:#1D4ED8;">Réseau & Infrastructure</span>
+<hr style="border: 0; height: 1px; background: #1D4ED8; opacity: 0.3;">
+++VLAN++ ++Routage-&-ACL++
+++LACP++ ++DNS/DHCP++
 
 ### 🖥️ Systèmes et Virtualisation
 <code>Windows</code> <code>Server</code> <code>Linux (Debian)</code> <code>Hyper-V</code> <code>VMware</code> <code>GPO</code>
