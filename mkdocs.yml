@@ -45,3 +45,4 @@ markdown_extensions:
   - pymdownx.superfences       # Blocs de code avancés
   - pymdownx.highlight:
       anchor_linenums: true
+  -attr_list                 # Thème clair et sombre
