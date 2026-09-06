@@ -17,11 +17,26 @@
 
 ## 🛠️ Domaines de compétences
 
-### Réseau & Infrastructure
-:  ++VLAN++ ++Routage-&-ACL++ ++LACP++ ++DNS/DHCP++
+### 🌐 Réseau & Infrastructure
+<code>VLAN</code> <code>Routage & ACL</code> <code>LACP</code> <code>DNS / DHCP</code>
 
 ### 🖥️ Systèmes et Virtualisation
 <code>Windows</code> <code>Server</code> <code>Linux (Debian)</code> <code>Hyper-V</code> <code>VMware</code> <code>GPO</code>
+
+### 🔐 Sécurité périmétrique
+<code>pfSense / OPNsense</code> <code>DMZ</code> <code>VPN / IPsec</code>
+
+### Authentification & Accès
+<code>Active Directory</code> <code>LDAPS</code> <code>MFA</code>
+
+### Supervision
+</code>Zabbix</code>
+
+### Gouvernance & Méthode
+<code>PRA / PCA</code> <code>RGPD</code>1
+
+### Audit & Cartographie
+<code>Nmap</code>
 
 ---
 
