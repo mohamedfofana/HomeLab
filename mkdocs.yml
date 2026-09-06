@@ -30,6 +30,8 @@ markdown_extensions:
   - admonition
   - pymdownx.details
   - pymdownx.superfences
+  - pymdownx.inlinehilite
+  - pymdownx.keys         
   - pymdownx.tabbed:
       alternate_style: true
 
