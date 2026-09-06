@@ -8,16 +8,8 @@ L'objectif est de démontrer les compétences d'**Administration Systèmes et R�
 
 ## 📐 Architecture & Topologie Réseau
 
-<picture>
-  <!-- Image affichée en Mode Sombre -->
-  <source media="(prefers-color-scheme: dark)" srcset="./images/Lablanc.drawio.png">
-  
-  <!-- Image affichée en Mode Clair (par défaut) -->
-  <source media="(prefers-color-scheme: light)" srcset="./images/Lab.drawio.png">
-  
-  <!-- Image de secours si le navigateur ne gère pas la balise -->
-  <img alt="Schéma de l'architecture" src="./images/Lab.drawio.png">
-</picture>
+![Schéma de l'architecture](./images/Lab.drawio.png#only-light)
+![Schéma de l'architecture](./images/Labblanc.drawio.png#only-dark)
 <br/>  
 
 ## 📋 Tableau de Synthèse d'Infrastructure
