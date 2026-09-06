@@ -81,6 +81,7 @@
 
 !!! note "Technicien d'exploitation N2 — INTM (10/25 — Présent)"
     **Support & Incidents :** <br>
+    <li>
       <li>Prise en charge du support N2 des incidents sur postes de travails pour les utilisateurs, résolution des tickets d'incidents d'infrastructure
       <li>Traitements des demandes utilisateurs
       <li>Résolution des incidents N2 de téléphonie mobile et d’impression
