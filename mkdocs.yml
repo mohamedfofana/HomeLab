@@ -32,6 +32,7 @@ theme:
     - search.suggest           # Autocomplétion dans la barre de recherche
     - search.highlight         # Surlignage des mots cherchés
 
+nav:
   - 🏠 Accueil & Architecture: index.md
   - 🔒 1. Sécurité Réseau & Filtrage (pfSense): 01-pfsense.md
   - 🏢 2. Active Directory & Services Réseau: 02-active-directory.md
