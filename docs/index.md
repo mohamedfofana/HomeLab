@@ -17,12 +17,8 @@
 
 ## 🛠️ Domaines de compétences
 
-::: grid
-:card:
-### <span style="color:#1D4ED8;">Réseau & Infrastructure</span>
-<hr style="border: 0; height: 1px; background: #1D4ED8; opacity: 0.3;">
-++VLAN++ ++Routage-&-ACL++
-++LACP++ ++DNS/DHCP++
+### Réseau & Infrastructure
+:  ++VLAN++ ++Routage-&-ACL++ ++LACP++ ++DNS/DHCP++
 
 ### 🖥️ Systèmes et Virtualisation
 <code>Windows</code> <code>Server</code> <code>Linux (Debian)</code> <code>Hyper-V</code> <code>VMware</code> <code>GPO</code>
