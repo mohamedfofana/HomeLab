@@ -97,7 +97,7 @@
     * Surveillance du déploiement des CSP via Inthune
     * Sauvegarde serveur LDAP via script PowerShell
 
-!!! note "Stagiaire Technicien support — Mairie de Cugnaux (2024 — 3 mois)
+!!! note "Stagiaire Technicien support — Mairie de Cugnaux (2024 — 3 mois)"
     **Support & Incidents :**
     * Prise en compte et résolutions d’incidents sur GLPI et Hotline
     * Support de proximité
