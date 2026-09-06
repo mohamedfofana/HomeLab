@@ -46,10 +46,11 @@
   <div>
     <h3 style="color: #38bdf8 !important; margin-bottom: 0.8rem; font-weight: bold; font-size: 1.1rem;">Réseau & Infrastructure</h3>
     <div style="display: flex; flex-wrap: wrap; gap: 6px;">
-      <span style="background: rgba(56, 189, 248, 0.15); color: #38bdf8; border: 1px solid rgba(56, 189, 248, 0.3); border-radius: 4px; padding: 3px 8px; font-size: 0.8rem; font-family: monospace;">VLAN / 802.1Q</span>
+      <span style="background: rgba(56, 189, 248, 0.15); color: #38bdf8; border: 1px solid rgba(56, 189, 248, 0.3); border-radius: 4px; padding: 3px 8px; font-size: 0.8rem; font-family: monospace;">VLAN</span>
       <span style="background: rgba(56, 189, 248, 0.15); color: #38bdf8; border: 1px solid rgba(56, 189, 248, 0.3); border-radius: 4px; padding: 3px 8px; font-size: 0.8rem; font-family: monospace;">Routage & ACL</span>
       <span style="background: rgba(56, 189, 248, 0.15); color: #38bdf8; border: 1px solid rgba(56, 189, 248, 0.3); border-radius: 4px; padding: 3px 8px; font-size: 0.8rem; font-family: monospace;">LACP</span>
       <span style="background: rgba(56, 189, 248, 0.15); color: #38bdf8; border: 1px solid rgba(56, 189, 248, 0.3); border-radius: 4px; padding: 3px 8px; font-size: 0.8rem; font-family: monospace;">DNS / DHCP</span>
+      <span style="background: rgba(56, 189, 248, 0.15); color: #38bdf8; border: 1px solid rgba(56, 189, 248, 0.3); border-radius: 4px; padding: 3px 8px; font-size: 0.8rem; font-family: monospace;">Nmap</span>
     </div>
   </div>
 
@@ -65,35 +66,21 @@
     </div>
   </div>
 
-  <!-- Sécurité périmétrique (Bleu Indigo) -->
+  <!-- Sécurité (Bleu Indigo) -->
   <div>
-    <h3 style="color: #818cf8 !important; margin-bottom: 0.8rem; font-weight: bold; font-size: 1.1rem;">Sécurité périmétrique</h3>
+    <h3 style="color: #818cf8 !important; margin-bottom: 0.8rem; font-weight: bold; font-size: 1.1rem;">Sécurité</h3>
     <div style="display: flex; flex-wrap: wrap; gap: 6px;">
       <span style="background: rgba(129, 140, 248, 0.15); color: #818cf8; border: 1px solid rgba(129, 140, 248, 0.3); border-radius: 4px; padding: 3px 8px; font-size: 0.8rem; font-family: monospace;">pfSense / OPNsense</span>
       <span style="background: rgba(129, 140, 248, 0.15); color: #818cf8; border: 1px solid rgba(129, 140, 248, 0.3); border-radius: 4px; padding: 3px 8px; font-size: 0.8rem; font-family: monospace;">DMZ</span>
       <span style="background: rgba(129, 140, 248, 0.15); color: #818cf8; border: 1px solid rgba(129, 140, 248, 0.3); border-radius: 4px; padding: 3px 8px; font-size: 0.8rem; font-family: monospace;">VPN / IPsec</span>
-      <span style="background: rgba(129, 140, 248, 0.15); color: #818cf8; border: 1px solid rgba(129, 140, 248, 0.3); border-radius: 4px; padding: 3px 8px; font-size: 0.8rem; font-family: monospace;">Proxy / SNI</span>
     </div>
   </div>
 
-  <!-- Détection (SOC) (Vert) -->
+  <!-- Supervision (Violet) -->
   <div>
-    <h3 style="color: #4ade80 !important; margin-bottom: 0.8rem; font-weight: bold; font-size: 1.1rem;">Détection (SOC)</h3>
+    <h3 style="color: #c084fc !important; margin-bottom: 0.8rem; font-weight: bold; font-size: 1.1rem;">Supervision</h3>
     <div style="display: flex; flex-wrap: wrap; gap: 6px;">
-      <span style="background: rgba(74, 222, 128, 0.15); color: #4ade80; border: 1px solid rgba(74, 222, 128, 0.3); border-radius: 4px; padding: 3px 8px; font-size: 0.8rem; font-family: monospace;">SIEM (Wazuh)</span>
-      <span style="background: rgba(74, 222, 128, 0.15); color: #4ade80; border: 1px solid rgba(74, 222, 128, 0.3); border-radius: 4px; padding: 3px 8px; font-size: 0.8rem; font-family: monospace;">Suricata IDS/IPS</span>
-      <span style="background: rgba(74, 222, 128, 0.15); color: #4ade80; border: 1px solid rgba(74, 222, 128, 0.3); border-radius: 4px; padding: 3px 8px; font-size: 0.8rem; font-family: monospace;">Sysmon</span>
-      <span style="background: rgba(74, 222, 128, 0.15); color: #4ade80; border: 1px solid rgba(74, 222, 128, 0.3); border-radius: 4px; padding: 3px 8px; font-size: 0.8rem; font-family: monospace;">MITRE ATT&CK</span>
-    </div>
-  </div>
-
-  <!-- Réponse & Automatisation (Violet) -->
-  <div>
-    <h3 style="color: #c084fc !important; margin-bottom: 0.8rem; font-weight: bold; font-size: 1.1rem;">Réponse & Automatisation</h3>
-    <div style="display: flex; flex-wrap: wrap; gap: 6px;">
-      <span style="background: rgba(192, 132, 252, 0.15); color: #c084fc; border: 1px solid rgba(192, 132, 252, 0.3); border-radius: 4px; padding: 3px 8px; font-size: 0.8rem; font-family: monospace;">SOAR</span>
-      <span style="background: rgba(192, 132, 252, 0.15); color: #c084fc; border: 1px solid rgba(192, 132, 252, 0.3); border-radius: 4px; padding: 3px 8px; font-size: 0.8rem; font-family: monospace;">EDR</span>
-      <span style="background: rgba(192, 132, 252, 0.15); color: #c084fc; border: 1px solid rgba(192, 132, 252, 0.3); border-radius: 4px; padding: 3px 8px; font-size: 0.8rem; font-family: monospace;">Supervision (Zabbix)</span>
+      <span style="background: rgba(192, 132, 252, 0.15); color: #c084fc; border: 1px solid rgba(192, 132, 252, 0.3); border-radius: 4px; padding: 3px 8px; font-size: 0.8rem; font-family: monospace;">Zabbix</span>
     </div>
   </div>
 
@@ -101,8 +88,6 @@
   <div>
     <h3 style="color: #fb923c !important; margin-bottom: 0.8rem; font-weight: bold; font-size: 1.1rem;">Gouvernance & Méthode</h3>
     <div style="display: flex; flex-wrap: wrap; gap: 6px;">
-      <span style="background: rgba(251, 146, 60, 0.15); color: #fb923c; border: 1px solid rgba(251, 146, 60, 0.3); border-radius: 4px; padding: 3px 8px; font-size: 0.8rem; font-family: monospace;">EBIOS Risk Manager</span>
-      <span style="background: rgba(251, 146, 60, 0.15); color: #fb923c; border: 1px solid rgba(251, 146, 60, 0.3); border-radius: 4px; padding: 3px 8px; font-size: 0.8rem; font-family: monospace;">PSSI</span>
       <span style="background: rgba(251, 146, 60, 0.15); color: #fb923c; border: 1px solid rgba(251, 146, 60, 0.3); border-radius: 4px; padding: 3px 8px; font-size: 0.8rem; font-family: monospace;">PRA / PCA</span>
       <span style="background: rgba(251, 146, 60, 0.15); color: #fb923c; border: 1px solid rgba(251, 146, 60, 0.3); border-radius: 4px; padding: 3px 8px; font-size: 0.8rem; font-family: monospace;">RGPD</span>
     </div>
