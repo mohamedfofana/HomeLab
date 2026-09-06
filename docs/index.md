@@ -38,31 +38,75 @@
 ### Audit & Cartographie
 <code>Nmap</code>
 
-<div class="grid cards" markdown>
+<h2 style="border-bottom: 0.05rem solid var(--md-default-fg-color--lightest); padding-bottom: 0.4rem;">🛠️ Domaines de compétences</h2>
 
--   <span style="color: #00c6ff; font-weight: bold; font-size: 1.1em;">Réseau & Infrastructure</span>
+<div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(220px, 1fr)); gap: 1.5rem; margin-top: 1.5rem;">
 
-    `VLAN / 802.1Q` `Routage & ACL` `LACP` `DNS / DHCP`
+  <!-- Réseau & Infrastructure (Bleu / Cyan) -->
+  <div>
+    <h3 style="color: #38bdf8 !important; margin-bottom: 0.8rem; font-weight: bold; font-size: 1.1rem;">Réseau & Infrastructure</h3>
+    <div style="display: flex; flex-wrap: wrap; gap: 6px;">
+      <span style="background: rgba(56, 189, 248, 0.15); color: #38bdf8; border: 1px solid rgba(56, 189, 248, 0.3); border-radius: 4px; padding: 3px 8px; font-size: 0.8rem; font-family: monospace;">VLAN / 802.1Q</span>
+      <span style="background: rgba(56, 189, 248, 0.15); color: #38bdf8; border: 1px solid rgba(56, 189, 248, 0.3); border-radius: 4px; padding: 3px 8px; font-size: 0.8rem; font-family: monospace;">Routage & ACL</span>
+      <span style="background: rgba(56, 189, 248, 0.15); color: #38bdf8; border: 1px solid rgba(56, 189, 248, 0.3); border-radius: 4px; padding: 3px 8px; font-size: 0.8rem; font-family: monospace;">LACP</span>
+      <span style="background: rgba(56, 189, 248, 0.15); color: #38bdf8; border: 1px solid rgba(56, 189, 248, 0.3); border-radius: 4px; padding: 3px 8px; font-size: 0.8rem; font-family: monospace;">DNS / DHCP</span>
+    </div>
+  </div>
 
--   <span style="color: #38ef7d; font-weight: bold; font-size: 1.1em;">Systèmes & Virtualisation</span>
+  <!-- Systèmes & Virtualisation (Bleu Clair) -->
+  <div>
+    <h3 style="color: #60a5fa !important; margin-bottom: 0.8rem; font-weight: bold; font-size: 1.1rem;">Systèmes & Virtualisation</h3>
+    <div style="display: flex; flex-wrap: wrap; gap: 6px;">
+      <span style="background: rgba(96, 165, 250, 0.15); color: #60a5fa; border: 1px solid rgba(96, 165, 250, 0.3); border-radius: 4px; padding: 3px 8px; font-size: 0.8rem; font-family: monospace;">Windows Server</span>
+      <span style="background: rgba(96, 165, 250, 0.15); color: #60a5fa; border: 1px solid rgba(96, 165, 250, 0.3); border-radius: 4px; padding: 3px 8px; font-size: 0.8rem; font-family: monospace;">Linux (Debian)</span>
+      <span style="background: rgba(96, 165, 250, 0.15); color: #60a5fa; border: 1px solid rgba(96, 165, 250, 0.3); border-radius: 4px; padding: 3px 8px; font-size: 0.8rem; font-family: monospace;">Hyper-V</span>
+      <span style="background: rgba(96, 165, 250, 0.15); color: #60a5fa; border: 1px solid rgba(96, 165, 250, 0.3); border-radius: 4px; padding: 3px 8px; font-size: 0.8rem; font-family: monospace;">VMware</span>
+      <span style="background: rgba(96, 165, 250, 0.15); color: #60a5fa; border: 1px solid rgba(96, 165, 250, 0.3); border-radius: 4px; padding: 3px 8px; font-size: 0.8rem; font-family: monospace;">GPO</span>
+    </div>
+  </div>
 
-    `Windows Server` `Linux (Debian)` `Hyper-V` `VMware` `GPO`
+  <!-- Sécurité périmétrique (Bleu Indigo) -->
+  <div>
+    <h3 style="color: #818cf8 !important; margin-bottom: 0.8rem; font-weight: bold; font-size: 1.1rem;">Sécurité périmétrique</h3>
+    <div style="display: flex; flex-wrap: wrap; gap: 6px;">
+      <span style="background: rgba(129, 140, 248, 0.15); color: #818cf8; border: 1px solid rgba(129, 140, 248, 0.3); border-radius: 4px; padding: 3px 8px; font-size: 0.8rem; font-family: monospace;">pfSense / OPNsense</span>
+      <span style="background: rgba(129, 140, 248, 0.15); color: #818cf8; border: 1px solid rgba(129, 140, 248, 0.3); border-radius: 4px; padding: 3px 8px; font-size: 0.8rem; font-family: monospace;">DMZ</span>
+      <span style="background: rgba(129, 140, 248, 0.15); color: #818cf8; border: 1px solid rgba(129, 140, 248, 0.3); border-radius: 4px; padding: 3px 8px; font-size: 0.8rem; font-family: monospace;">VPN / IPsec</span>
+      <span style="background: rgba(129, 140, 248, 0.15); color: #818cf8; border: 1px solid rgba(129, 140, 248, 0.3); border-radius: 4px; padding: 3px 8px; font-size: 0.8rem; font-family: monospace;">Proxy / SNI</span>
+    </div>
+  </div>
 
--   <span style="color: #a855f7; font-weight: bold; font-size: 1.1em;">Sécurité périmétrique</span>
+  <!-- Détection (SOC) (Vert) -->
+  <div>
+    <h3 style="color: #4ade80 !important; margin-bottom: 0.8rem; font-weight: bold; font-size: 1.1rem;">Détection (SOC)</h3>
+    <div style="display: flex; flex-wrap: wrap; gap: 6px;">
+      <span style="background: rgba(74, 222, 128, 0.15); color: #4ade80; border: 1px solid rgba(74, 222, 128, 0.3); border-radius: 4px; padding: 3px 8px; font-size: 0.8rem; font-family: monospace;">SIEM (Wazuh)</span>
+      <span style="background: rgba(74, 222, 128, 0.15); color: #4ade80; border: 1px solid rgba(74, 222, 128, 0.3); border-radius: 4px; padding: 3px 8px; font-size: 0.8rem; font-family: monospace;">Suricata IDS/IPS</span>
+      <span style="background: rgba(74, 222, 128, 0.15); color: #4ade80; border: 1px solid rgba(74, 222, 128, 0.3); border-radius: 4px; padding: 3px 8px; font-size: 0.8rem; font-family: monospace;">Sysmon</span>
+      <span style="background: rgba(74, 222, 128, 0.15); color: #4ade80; border: 1px solid rgba(74, 222, 128, 0.3); border-radius: 4px; padding: 3px 8px; font-size: 0.8rem; font-family: monospace;">MITRE ATT&CK</span>
+    </div>
+  </div>
 
-    `pfSense / OPNsense` `DMZ` `VPN / IPsec` `Proxy / SNI`
+  <!-- Réponse & Automatisation (Violet) -->
+  <div>
+    <h3 style="color: #c084fc !important; margin-bottom: 0.8rem; font-weight: bold; font-size: 1.1rem;">Réponse & Automatisation</h3>
+    <div style="display: flex; flex-wrap: wrap; gap: 6px;">
+      <span style="background: rgba(192, 132, 252, 0.15); color: #c084fc; border: 1px solid rgba(192, 132, 252, 0.3); border-radius: 4px; padding: 3px 8px; font-size: 0.8rem; font-family: monospace;">SOAR</span>
+      <span style="background: rgba(192, 132, 252, 0.15); color: #c084fc; border: 1px solid rgba(192, 132, 252, 0.3); border-radius: 4px; padding: 3px 8px; font-size: 0.8rem; font-family: monospace;">EDR</span>
+      <span style="background: rgba(192, 132, 252, 0.15); color: #c084fc; border: 1px solid rgba(192, 132, 252, 0.3); border-radius: 4px; padding: 3px 8px; font-size: 0.8rem; font-family: monospace;">Supervision (Zabbix)</span>
+    </div>
+  </div>
 
--   <span style="color: #22c55e; font-weight: bold; font-size: 1.1em;">Détection (SOC)</span>
-
-    `SIEM (Wazuh)` `Suricata IDS/IPS` `Sysmon` `MITRE ATT&CK`
-
--   <span style="color: #a855f7; font-weight: bold; font-size: 1.1em;">Réponse & Automatisation</span>
-
-    `SOAR` `EDR` `Supervision (Zabbix)`
-
--   <span style="color: #f97316; font-weight: bold; font-size: 1.1em;">Gouvernance & Méthode</span>
-
-    `EBIOS Risk Manager` `PSSI` `PRA / PCA` `RGPD`
+  <!-- Gouvernance & Méthode (Orange) -->
+  <div>
+    <h3 style="color: #fb923c !important; margin-bottom: 0.8rem; font-weight: bold; font-size: 1.1rem;">Gouvernance & Méthode</h3>
+    <div style="display: flex; flex-wrap: wrap; gap: 6px;">
+      <span style="background: rgba(251, 146, 60, 0.15); color: #fb923c; border: 1px solid rgba(251, 146, 60, 0.3); border-radius: 4px; padding: 3px 8px; font-size: 0.8rem; font-family: monospace;">EBIOS Risk Manager</span>
+      <span style="background: rgba(251, 146, 60, 0.15); color: #fb923c; border: 1px solid rgba(251, 146, 60, 0.3); border-radius: 4px; padding: 3px 8px; font-size: 0.8rem; font-family: monospace;">PSSI</span>
+      <span style="background: rgba(251, 146, 60, 0.15); color: #fb923c; border: 1px solid rgba(251, 146, 60, 0.3); border-radius: 4px; padding: 3px 8px; font-size: 0.8rem; font-family: monospace;">PRA / PCA</span>
+      <span style="background: rgba(251, 146, 60, 0.15); color: #fb923c; border: 1px solid rgba(251, 146, 60, 0.3); border-radius: 4px; padding: 3px 8px; font-size: 0.8rem; font-family: monospace;">RGPD</span>
+    </div>
+  </div>
 
 </div>
 
