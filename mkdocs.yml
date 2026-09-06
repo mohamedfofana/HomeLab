@@ -16,7 +16,8 @@ theme:
       primary: indigo
       accent: blue
   features:
-    - navigation.top
+    - hide.navigation
+    - hide.toc
     - content.code.copy
 
 markdown_extensions:
