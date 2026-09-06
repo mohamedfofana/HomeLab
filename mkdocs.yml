@@ -11,16 +11,10 @@ theme:
       scheme: slate
       primary: indigo
       accent: blue
-      toggle:
-        icon: material/brightness-4
-        name: Passer au mode clair
     - media: "(prefers-color-scheme: light)"
       scheme: default
       primary: indigo
       accent: blue
-      toggle:
-        icon: material/brightness-7
-        name: Passer au mode sombre
   features:
     - navigation.top
     - content.code.copy
