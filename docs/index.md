@@ -9,7 +9,7 @@ L'objectif est de démontrer les compétences d'**Administration Systèmes et R�
 ## 📐 Architecture & Topologie Réseau
 
 ![Schéma de l'architecture](./images/Lab.drawio.png#only-light)
-![Schéma de l'architecture](./images/Labblanc.drawio.png#only-dark)
+![Schéma de l'architecture](./images/Lablanc.drawio.png#only-dark)
 <br/>  
 
 ## 📋 Tableau de Synthèse d'Infrastructure
