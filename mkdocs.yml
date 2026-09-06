@@ -1,7 +1,7 @@
-site_name: Mohamed FOFANA | Portfolio ASR
+site_name: Mohamed FOFANA | Portfolio
 site_description: Portfolio professionnel et documentation technique d'infrastructure.
 site_author: Mohamed FOFANA
-site_url: https://mohamedfofana.github.io/HomeLab/
+site_url: https://mohamedfofana.github.io/Portfolio/
 
 theme:
   name: material
