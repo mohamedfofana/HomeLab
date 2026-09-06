@@ -1,16 +1,15 @@
 <div align="center" style="margin-bottom: 30px;">
-  <img src="assets/images/photo.jpg" alt="Mohamed FOFANA" style="width: 130px; height: 130px; border-radius: 50%; object-fit: cover; border: 3px solid #3f51b5; margin-bottom: 15px;">
+  <img src="/images/imgcv.jpg" alt="Mohamed FOFANA" style="width: 130px; height: 130px; border-radius: 50%; object-fit: cover; border: 3px solid #3f51b5; margin-bottom: 15px;">
 
   <h1 style="margin: 0; font-size: 2.2em;">MOHAMED FOFANA</h1>
-  <p style="font-size: 1.1em; color: #888; margin-top: 5px;"><strong>PORTFOLIO ADMINISTRATEUR SYSTÈMES & RÉSEAUX</strong></p>
+  <p style="font-size: 1.1em; color: #3F0FB7; margin-top: 5px;"><strong>PORTFOLIO · SYSTÈMES · RÉSEAUX</strong></p>
   
   <p style="font-size: 0.9em; opacity: 0.8;">
-    <code>1 Projet Majeur</code> • <code>Dernière mise à jour : 2026</code>
+    <code>De Technicien à Administrateur</code>
   </p>
 
   <div style="margin-top: 20px; display: flex; justify-content: center; gap: 10px; flex-wrap: wrap;">
-    <a href="assets/cv.pdf" target="_blank" class="md-button md-button--primary">📄 Mon CV (PDF)</a>
-    <a href="#disponibilite" class="md-button">✉️ Me Contacter</a>
+    <a href="cv.pdf" target="_blank" class="md-button md-button--primary">📄 Mon CV (PDF)</a>
   </div>
 </div>
 
@@ -18,24 +17,11 @@
 
 ## 🛠️ Domaines de compétences
 
-=== "🖥️ Administration Systèmes"
-    * **Windows Server :** Active Directory (AD DS), DNS intégré, DHCP, GPO (Hardening & Politiques de sécurité), WSUS.
-    * **Linux :** Administration Debian / Ubuntu Server, gestion des droits, services Web (Nginx, Apache).
-    * **Sauvegarde & Continuité :** Sauvegarde *System State* AD via `wbadmin`, rétention d'archives sous Linux.
+### 🌐 Réseau & Infrastructure
+<code>VLAN</code> <code>Routage & ACL</code> <code>LACP</code> <code>DNS / DHCP</code>
 
-=== "🌐 Réseau & Sécurité"
-    * **Filtrage & Routage :** pfSense (Règles L3/L4, NAT/PAT Outbound & Inbound, VPN).
-    * **Segmentation :** Configuration de VLANs 802.1Q (ADMIN, SRV, PROD, DMZ) et routage inter-VLAN.
-    * **Services Réseau :** Relais DHCP, résolution DNS interne/externe, isolation DMZ (Principe du moindre privilège).
-
-=== "⚡ Scripting & Industrialisation"
-    * **PowerShell :** Automatisation du provisionnement d'utilisateurs AD via CSV, création dynamique de dossiers personnels.
-    * **Bash :** Scripts d'archivage automatisés avec rétention via tâches planifiées `cron`.
-    * **Outillage :** Git, Markdown, MkDocs Material, documentation *Doc-as-Code*.
-
-=== "☁️ Virtualisation"
-    * **Hypervisseurs :** Microsoft Hyper-V, Proxmox VE.
-    * **Gestion des VM :** Commutateurs virtuels (vSwitchs), isolation réseau, allocation de ressources disques & RAM.
+### 🖥️ Systèmes et Virtualisation
+<code>Windows</code> <code>Server</code> <code>Linux (Debian)</code> <code>Hyper-V</code> <code>VMware</code> <code>GPO</code>
 
 ---
 
