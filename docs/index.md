@@ -81,22 +81,27 @@
 
 !!! note "Technicien d'exploitation N2 — INTM (10/25 — Présent)"
     **Support & Incidents :** 
-* Prise en charge du support N2 des incidents sur postes de travails pour les utilisateurs, résolution des tickets d'incidents d'infrastructure
-* Traitements des demandes utilisateurs
-* Résolution des incidents N2 de téléphonie mobile et d’impression 
-* Diagnostic des incidents réseaux
-* Prise en compte et résolutions d’incident en astreinte
-* Rédaction de procédure
+    <ul>
+      <li>Prise en charge du support N2 des incidents sur postes de travails pour les utilisateurs, résolution des tickets d'incidents d'infrastructure
+      <li>Traitements des demandes utilisateurs
+      <li>Résolution des incidents N2 de téléphonie mobile et d’impression
+      <li>Diagnostic des incidents réseaux
+      <li>Prise en compte et résolutions d’incident en astreinte
+      <li>Rédaction de procédure
+    <ul>  
     **Infrastuctures :**
-* Gestions du parc d'imprimantes
-* Projet de déploiement d’affichage dynamique (configuration, suivi et résolution d’incident)
-* Adressage IP des nouveaux équipements réseaux
-* Création demande d’ouverture de flux pour des périphériques informatiques
+    <ul>
+       <li>Gestions du parc d'imprimantes
+       <li>Projet de déploiement d’affichage dynamique (configuration, suivi et résolution d’incidents)
+       <li>Adressage IP des nouveaux équipements réseaux
+       <li>Création demande d’ouverture de flux pour des périphériques informatiques
+    <ul>
     **Surveillances et Sauvegardes :** 
-* Surveillance des serveurs bureautiques et de téléphonies via l'outil SCOM
-* Surveillance du déploiement des CSP via Inthune
-* Sauvegarde serveur LDAP via script PowerShell
-
+    <ul>
+      <li>Surveillance des serveurs bureautiques et de téléphonies via l'outil SCOM
+      <li>Surveillance du déploiement des CSP via Inthune
+      <li>Sauvegarde serveur LDAP via script PowerShell
+    <ul>
 !!! note "Stagiaire Technicien support — Mairie de Cugnaux (2024 — 3 mois)"
     **Support & Incidents :**
     * Prise en compte et résolutions d’incidents sur GLPI et Hotline
