@@ -14,6 +14,15 @@
 </div>
 
 ---
+
+<div align="center">
+<h2 style="border-bottom: 0.05rem solid var(--md-default-fg-color--lightest); padding-bottom: 0.4rem;">🪪 Profil</h2>
+</div>
+
+> Titulaire du titre TSSR (Bac+2) avec 1 an d'expérience en exploitation N2, je recherche un poste de Technicien N2 ou Administrateur Junior me permettant de développer mes compétences.
+> Mes expériences passées dans un domaine choisi par défaut m'ont fait comprendre qu'il est important d'évoluer dans un environnement que l'on apprécie. Passionné par les nouvelles technologie, je me suis donc formé aux métiers de la gestion d'infrastructures informatique ayant pour objectif à long termes de devenir Ingénieur d'Infrastructures.
+> Je cherche donc à développer mes compétences en administration d'infrastructures
+---
 <div align="center">
 <h2 style="border-bottom: 0.05rem solid var(--md-default-fg-color--lightest); padding-bottom: 0.4rem;">🛠️ Domaines de compétences</h2>
 </div>
@@ -83,25 +92,25 @@
     
     **Support & Incidents :**
     
-    *Prise en charge du support N2 des incidents sur postes de travails pour les utilisateurs, résolution des tickets d'incidents d'infrastructure
-    *Traitements des demandes utilisateurs
-    *Résolution des incidents N2 de téléphonie mobile et d’impression
-    *Diagnostic des incidents réseaux
-    *Prise en compte et résolutions d’incident en astreinte
-    *Rédaction de procédure
+    * Prise en charge du support N2 des incidents sur postes de travails pour les utilisateurs, résolution des tickets d'incidents d'infrastructure
+    * Traitements des demandes utilisateurs
+    * Résolution des incidents N2 de téléphonie mobile et d’impression
+    * Diagnostic des incidents réseaux
+    * Prise en compte et résolutions d’incident en astreinte
+    * Rédaction de procédure
     
     **Infrastuctures :**
     
-    *Gestions du parc d'imprimantes
-    *Projet de déploiement d’affichage dynamique (configuration, suivi et résolution d’incidents)
-    *Adressage IP des nouveaux équipements réseaux
-    *Création demande d’ouverture de flux pour des périphériques informatiques
+    * Gestions du parc d'imprimantes
+    * Projet de déploiement d’affichage dynamique (configuration, suivi et résolution d’incidents)
+    * Adressage IP des nouveaux équipements réseaux
+    * Création demande d’ouverture de flux pour des périphériques informatiques
     
     **Surveillances et Sauvegardes :**
     
-    *Surveillance des serveurs bureautiques et de téléphonies via l'outil SCOM
-    *Surveillance du déploiement des CSP via Inthune
-    *Sauvegarde serveur LDAP via script PowerShell
+    * Surveillance des serveurs bureautiques et de téléphonies via l'outil SCOM
+    * Surveillance du déploiement des CSP via Inthune
+    * Sauvegarde serveur LDAP via script PowerShell
     
 !!! note "Stagiaire Technicien support — Mairie de Cugnaux (2024 — 3 mois)"
 
@@ -120,11 +129,6 @@
     
 ---
 
-## ℹ️ À propos de ce portfolio
-
-Ce portfolio a été conçu selon la méthodologie **Doc-as-Code**. Rédigé en Markdown et compilé via **MkDocs Material** avec un déploiement continu sur **GitHub Pages**, il me permet de documenter mes projets d'infrastructure avec la même rigueur technique et la même précision que celles exigées dans un environnement professionnel (Dossier d'Architecture Technique / Dossier d'Exploitation).
-
----
 
 ## ⏳ Chronologie des projets
 
