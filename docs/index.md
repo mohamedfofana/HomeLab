@@ -33,7 +33,7 @@
 
   <!-- Systèmes & Virtualisation (Bleu Clair) -->
   <div>
-    <h3 style="color: #60a5fa !important; margin-bottom: 0.8rem; font-weight: bold; font-size: 1.0rem;">Systèmes & Virtualisation</h3>
+    <h3 style="color: #60a5fa !important; margin-bottom: 0.8rem; font-weight: bold; font-size: 1.0rem; border-bottom: 2px solid #60a5fa; padding-bottom: 0.4rem;">Systèmes & Virtualisation</h3>
     <div style="display: flex; flex-wrap: wrap; gap: 6px;">
       <span style="background: rgba(96, 165, 250, 0.15); color: #60a5fa; border: 1px solid rgba(96, 165, 250, 0.3); border-radius: 4px; padding: 3px 8px; font-size: 0.8rem; font-family: monospace;">Windows Server</span>
       <span style="background: rgba(96, 165, 250, 0.15); color: #60a5fa; border: 1px solid rgba(96, 165, 250, 0.3); border-radius: 4px; padding: 3px 8px; font-size: 0.8rem; font-family: monospace;">Linux (Debian)</span>
@@ -45,7 +45,7 @@
 
   <!-- Sécurité (Bleu Indigo) -->
   <div>
-    <h3 style="color: #818cf8 !important; margin-bottom: 0.8rem; font-weight: bold; font-size: 1.0rem;">Sécurité</h3>
+    <h3 style="color: #818cf8 !important; margin-bottom: 0.8rem; font-weight: bold; font-size: 1.0rem; border-bottom: 2px solid #818cf8; padding-bottom: 0.4rem;">Sécurité</h3>
     <div style="display: flex; flex-wrap: wrap; gap: 6px;">
       <span style="background: rgba(129, 140, 248, 0.15); color: #818cf8; border: 1px solid rgba(129, 140, 248, 0.3); border-radius: 4px; padding: 3px 8px; font-size: 0.8rem; font-family: monospace;">pfSense / OPNsense</span>
       <span style="background: rgba(129, 140, 248, 0.15); color: #818cf8; border: 1px solid rgba(129, 140, 248, 0.3); border-radius: 4px; padding: 3px 8px; font-size: 0.8rem; font-family: monospace;">DMZ</span>
@@ -55,7 +55,7 @@
 
   <!-- Supervision (Violet) -->
   <div>
-    <h3 style="color: #c084fc !important; margin-bottom: 0.8rem; font-weight: bold; font-size: 1.0rem;">Supervision</h3>
+    <h3 style="color: #c084fc !important; margin-bottom: 0.8rem; font-weight: bold; font-size: 1.0rem; border-bottom: 2px solid #c084fc; padding-bottom: 0.4rem;">Supervision</h3>
     <div style="display: flex; flex-wrap: wrap; gap: 6px;">
       <span style="background: rgba(192, 132, 252, 0.15); color: #c084fc; border: 1px solid rgba(192, 132, 252, 0.3); border-radius: 4px; padding: 3px 8px; font-size: 0.8rem; font-family: monospace;">Zabbix</span>
     </div>
@@ -63,7 +63,7 @@
 
   <!-- Gouvernance & Méthode (Orange) -->
   <div>
-    <h3 style="color: #fb923c !important; margin-bottom: 0.8rem; font-weight: bold; font-size: 1.0rem;">Gouvernance & Méthode</h3>
+    <h3 style="color: #fb923c !important; margin-bottom: 0.8rem; font-weight: bold; font-size: 1.0rem; border-bottom: 2px solid #fb923c; padding-bottom: 0.4rem;">Gouvernance & Méthode</h3>
     <div style="display: flex; flex-wrap: wrap; gap: 6px;">
       <span style="background: rgba(251, 146, 60, 0.15); color: #fb923c; border: 1px solid rgba(251, 146, 60, 0.3); border-radius: 4px; padding: 3px 8px; font-size: 0.8rem; font-family: monospace;">PRA / PCA</span>
       <span style="background: rgba(251, 146, 60, 0.15); color: #fb923c; border: 1px solid rgba(251, 146, 60, 0.3); border-radius: 4px; padding: 3px 8px; font-size: 0.8rem; font-family: monospace;">RGPD</span>
@@ -75,10 +75,14 @@
 
 ---
 
-## 💼 Expérience en entreprise
+<div align="center">
+<h2 style="border-bottom: 0.05rem solid var(--md-default-fg-color--lightest); padding-bottom: 0.4rem;">💼 Expériences</h2>
+</div>
 
-!!! note "Technicien Supérieur Systèmes & Réseaux — Enterprise (2024 — Présent)"
-    * **Support & Incidents :** Prise en charge du support N2/N3 pour les utilisateurs, résolution des tickets d'incidents d'infrastructure.
+!!! note "Technicien d'exploitation N2 — INTM (10/25 — Présent)"
+    * **Support & Incidents :** Prise en charge du support N2 des incidents sur postes de travails pour les utilisateurs, résolution des tickets d'incidents d'infrastructure. <br>
+    Traitements des demandes utilisateurs. <br>
+    
     * **Administration d'annuaire :** Gestion quotidienne des objets Active Directory (création de comptes, droits d'accès, reinitialisation).
     * **Déploiement Postes :** Masterisation et préparation des postes de travail clients, intégration au domaine d'entreprise.
     * **Réseau :** Brassage de baies de brassage, suivi des adresses IP et diagnostic de connectivité N1/N2.
