@@ -21,7 +21,7 @@
 
   <!-- Réseau & Infrastructure (Bleu / Cyan) -->
   <div>
-    <h3 style="color: #38bdf8 !important; margin-bottom: 0.8rem; font-weight: bold; font-size: 1.1rem;">Réseau & Infrastructure</h3>
+    <h3 style="color: #38bdf8 !important; margin-bottom: 0.8rem; font-weight: bold; font-size: 1.0rem;">Réseau & Infrastructure</h3>
     <div style="display: flex; flex-wrap: wrap; gap: 6px;">
       <span style="background: rgba(56, 189, 248, 0.15); color: #38bdf8; border: 1px solid rgba(56, 189, 248, 0.3); border-radius: 4px; padding: 3px 8px; font-size: 0.8rem; font-family: monospace;">VLAN</span>
       <span style="background: rgba(56, 189, 248, 0.15); color: #38bdf8; border: 1px solid rgba(56, 189, 248, 0.3); border-radius: 4px; padding: 3px 8px; font-size: 0.8rem; font-family: monospace;">Routage & ACL</span>
@@ -33,7 +33,7 @@
 
   <!-- Systèmes & Virtualisation (Bleu Clair) -->
   <div>
-    <h3 style="color: #60a5fa !important; margin-bottom: 0.8rem; font-weight: bold; font-size: 1.1rem;">Systèmes & Virtualisation</h3>
+    <h3 style="color: #60a5fa !important; margin-bottom: 0.8rem; font-weight: bold; font-size: 1.0rem;">Systèmes & Virtualisation</h3>
     <div style="display: flex; flex-wrap: wrap; gap: 6px;">
       <span style="background: rgba(96, 165, 250, 0.15); color: #60a5fa; border: 1px solid rgba(96, 165, 250, 0.3); border-radius: 4px; padding: 3px 8px; font-size: 0.8rem; font-family: monospace;">Windows Server</span>
       <span style="background: rgba(96, 165, 250, 0.15); color: #60a5fa; border: 1px solid rgba(96, 165, 250, 0.3); border-radius: 4px; padding: 3px 8px; font-size: 0.8rem; font-family: monospace;">Linux (Debian)</span>
@@ -45,7 +45,7 @@
 
   <!-- Sécurité (Bleu Indigo) -->
   <div>
-    <h3 style="color: #818cf8 !important; margin-bottom: 0.8rem; font-weight: bold; font-size: 1.1rem;">Sécurité</h3>
+    <h3 style="color: #818cf8 !important; margin-bottom: 0.8rem; font-weight: bold; font-size: 1.0rem;">Sécurité</h3>
     <div style="display: flex; flex-wrap: wrap; gap: 6px;">
       <span style="background: rgba(129, 140, 248, 0.15); color: #818cf8; border: 1px solid rgba(129, 140, 248, 0.3); border-radius: 4px; padding: 3px 8px; font-size: 0.8rem; font-family: monospace;">pfSense / OPNsense</span>
       <span style="background: rgba(129, 140, 248, 0.15); color: #818cf8; border: 1px solid rgba(129, 140, 248, 0.3); border-radius: 4px; padding: 3px 8px; font-size: 0.8rem; font-family: monospace;">DMZ</span>
@@ -55,7 +55,7 @@
 
   <!-- Supervision (Violet) -->
   <div>
-    <h3 style="color: #c084fc !important; margin-bottom: 0.8rem; font-weight: bold; font-size: 1.1rem;">Supervision</h3>
+    <h3 style="color: #c084fc !important; margin-bottom: 0.8rem; font-weight: bold; font-size: 1.0rem;">Supervision</h3>
     <div style="display: flex; flex-wrap: wrap; gap: 6px;">
       <span style="background: rgba(192, 132, 252, 0.15); color: #c084fc; border: 1px solid rgba(192, 132, 252, 0.3); border-radius: 4px; padding: 3px 8px; font-size: 0.8rem; font-family: monospace;">Zabbix</span>
     </div>
@@ -63,7 +63,7 @@
 
   <!-- Gouvernance & Méthode (Orange) -->
   <div>
-    <h3 style="color: #fb923c !important; margin-bottom: 0.8rem; font-weight: bold; font-size: 1.1rem;">Gouvernance & Méthode</h3>
+    <h3 style="color: #fb923c !important; margin-bottom: 0.8rem; font-weight: bold; font-size: 1.0rem;">Gouvernance & Méthode</h3>
     <div style="display: flex; flex-wrap: wrap; gap: 6px;">
       <span style="background: rgba(251, 146, 60, 0.15); color: #fb923c; border: 1px solid rgba(251, 146, 60, 0.3); border-radius: 4px; padding: 3px 8px; font-size: 0.8rem; font-family: monospace;">PRA / PCA</span>
       <span style="background: rgba(251, 146, 60, 0.15); color: #fb923c; border: 1px solid rgba(251, 146, 60, 0.3); border-radius: 4px; padding: 3px 8px; font-size: 0.8rem; font-family: monospace;">RGPD</span>
