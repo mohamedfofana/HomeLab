@@ -129,17 +129,19 @@
     
 ---
 
+<div align="center">
+<h2 style="border-bottom: 0.05rem solid var(--md-default-fg-color--lightest); padding-bottom: 0.4rem;">🚀 Projets Réalisés</h2>
+</div>
 
-## ⏳ Chronologie des projets
+!!! abstract "HomeLab — Architecture & Infrastructure d'Entreprise ASR (2026)"
 
-### 1️⃣ HomeLab Infrastructure d'Entreprise ASR
-* **Période :** 2026
-* **Environnement :** Microsoft Hyper-V, pfSense, Windows Server 2022, Debian Linux
-* **Technologies :** Active Directory, VLANs, DMZ, PowerShell, Nginx, System State Backup
+    **Environnement :** `Microsoft Hyper-V` • `pfSense` • `Windows Server 2022` • `Debian Linux`  
+    **Technologies :** `Active Directory` • `VLANs` • `DMZ` • `PowerShell` • `Nginx` • `System State Backup`
 
-> Conception et déploiement d'une maquette réseau complète pour une entreprise fictive. Mise en place d'une segmentation par pare-feu pfSense, d'un annuaire Active Directory sécurisé par GPO, d'un script d'intégration PowerShell, d'un serveur Web isolé en DMZ et d'une stratégie de sauvegarde.
+    **Description du projet :**
+    Conception et déploiement d'une maquette réseau entreprise sur Hyper-V. Mise en place d'une segmentation par pare-feu pfSense, d'un annuaire Active Directory durci par GPO, d'un script d'intégration PowerShell, d'un serveur Web isolé en DMZ et d'une politique de sauvegarde.
 
-👉 **[Consulter la documentation technique complète du HomeLab](./homelab/01-pfsense.md)**
+    👉 **[Consulter le rapport technique et la documentation du HomeLab](./homelab/01-pfsense.md)**
 
 ---
 <div align="center"> 
