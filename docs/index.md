@@ -80,22 +80,22 @@
 </div>
 
 !!! note "Technicien d'exploitation N2 — INTM (10/25 — Présent)"
-    **Support & Incidents :** <br>
-    * Prise en charge du support N2 des incidents sur postes de travails pour les utilisateurs, résolution des tickets d'incidents d'infrastructure <br>
-    * Traitements des demandes utilisateurs <br>
-    * Résolution des incidents N2 de téléphonie mobile et d’impression <br>
-    * Diagnostic des incidents réseaux
-    * Prise en compte et résolutions d’incident en astreinte <br>
-    * Rédaction de procédure
-    **Infrastuctures :** <br>
-    * Gestions du parc d'imprimantes
-    * Projet de déploiement d’affichage dynamique (configuration, suivi et résolution d’incident)
-    * Adressage IP des nouveaux équipements réseaux
-    * Création demande d’ouverture de flux pour des périphériques informatiques
+    **Support & Incidents :** 
+* Prise en charge du support N2 des incidents sur postes de travails pour les utilisateurs, résolution des tickets d'incidents d'infrastructure
+* Traitements des demandes utilisateurs
+* Résolution des incidents N2 de téléphonie mobile et d’impression 
+* Diagnostic des incidents réseaux
+* Prise en compte et résolutions d’incident en astreinte
+* Rédaction de procédure
+    **Infrastuctures :**
+* Gestions du parc d'imprimantes
+* Projet de déploiement d’affichage dynamique (configuration, suivi et résolution d’incident)
+* Adressage IP des nouveaux équipements réseaux
+* Création demande d’ouverture de flux pour des périphériques informatiques
     **Surveillances et Sauvegardes :** 
-    * Surveillance des serveurs bureautiques et de téléphonies via l'outil SCOM
-    * Surveillance du déploiement des CSP via Inthune
-    * Sauvegarde serveur LDAP via script PowerShell
+* Surveillance des serveurs bureautiques et de téléphonies via l'outil SCOM
+* Surveillance du déploiement des CSP via Inthune
+* Sauvegarde serveur LDAP via script PowerShell
 
 !!! note "Stagiaire Technicien support — Mairie de Cugnaux (2024 — 3 mois)"
     **Support & Incidents :**
