@@ -12,6 +12,7 @@ theme:
       primary: indigo
       accent: blue
       toggle:
+      media: "(prefers-color-scheme: dark)"
         icon: material/brightness-4
         name: Passer au mode clair
     # Option mode clair
@@ -19,6 +20,7 @@ theme:
       primary: indigo
       accent: blue
       toggle:
+      media: "(prefers-color-scheme: light)"
         icon: material/brightness-7
         name: Passer au mode sombre
   features:
