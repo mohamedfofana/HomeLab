@@ -13,7 +13,7 @@ theme:
       accent: blue
     - media: "(prefers-color-scheme: light)"
       scheme: default
-      primary: white
+      primary: indigo
       accent: blue
   features:
     - navigation.top
