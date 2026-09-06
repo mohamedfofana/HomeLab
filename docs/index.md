@@ -109,15 +109,15 @@
     * Suivi de procédure de configuration d'installation de téléphone fixe sur 3CX
     * Diagnostique de problèmes réseau
 
->!!! note "Technicien Supérieur Systèmes & Réseaux — Enterprise (2024 — Présent)"
->    **Support & Incidents :** 
->    * Prise en charge du support N2/N3 pour les utilisateurs, résolution des tickets d'incidents d'infrastructure.
->    **Administration d'annuaire :** 
->    * Gestion quotidienne des objets Active Directory (création de comptes, droits d'accès, reinitialisation).
->    **Déploiement Postes :** 
->    * Masterisation et préparation des postes de travail clients, intégration au domaine d'entreprise.
->    **Réseau :** 
->    * Brassage de baies de brassage, suivi des adresses IP et diagnostic de connectivité N1/N2.
+!!! note "Technicien Supérieur Systèmes & Réseaux — Enterprise (2024 — Présent)"
+    **Support & Incidents :** 
+      * Prise en charge du support N2/N3 pour les utilisateurs, résolution des tickets d'incidents d'infrastructure.
+    **Administration d'annuaire :** 
+      * Gestion quotidienne des objets Active Directory (création de comptes, droits d'accès, reinitialisation).
+    **Déploiement Postes :** 
+      * Masterisation et préparation des postes de travail clients, intégration au domaine d'entreprise.
+    **Réseau :** 
+      * Brassage de baies de brassage, suivi des adresses IP et diagnostic de connectivité N1/N2.
 ---
 
 ## ℹ️ À propos de ce portfolio
