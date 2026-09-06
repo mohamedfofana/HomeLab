@@ -88,16 +88,12 @@
       <li>Diagnostic des incidents réseaux
       <li>Prise en compte et résolutions d’incident en astreinte
       <li>Rédaction de procédure
-    <ul>  
     **Infrastuctures :**
-    <ul>
        <li>Gestions du parc d'imprimantes
        <li>Projet de déploiement d’affichage dynamique (configuration, suivi et résolution d’incidents)
        <li>Adressage IP des nouveaux équipements réseaux
        <li>Création demande d’ouverture de flux pour des périphériques informatiques
-    <ul>
     **Surveillances et Sauvegardes :** 
-    <ul>
       <li>Surveillance des serveurs bureautiques et de téléphonies via l'outil SCOM
       <li>Surveillance du déploiement des CSP via Inthune
       <li>Sauvegarde serveur LDAP via script PowerShell
