@@ -19,9 +19,9 @@
 <h2 style="border-bottom: 0.05rem solid var(--md-default-fg-color--lightest); padding-bottom: 0.4rem;">🪪 Profil</h2>
 </div>
 
-> Titulaire du titre TSSR (Bac+2) avec 1 an d'expérience en exploitation N2, je recherche un poste de Technicien N2 ou Administrateur Junior me permettant de développer mes compétences.
+> Titulaire du titre TSSR (Bac+2) avec 1 an d'expérience en exploitation N2,  je recherche une alternance de 12 mois pour préparer le Bachelor Administrateur Système & Réseau au CESI (Rythme 3 semaines / 1 semaine)
 > Mes expériences passées dans un domaine choisi par défaut m'ont fait comprendre qu'il est important d'évoluer dans un environnement que l'on apprécie. Passionné par les nouvelles technologie, je me suis donc formé aux métiers de la gestion d'infrastructures informatique ayant pour objectif à long termes de devenir Ingénieur d'Infrastructures.
-> Je cherche donc à développer mes compétences en administration d'infrastructures
+> Je cherche donc à développer mes compétences en administration d'infrastructures afin de passer de la résolutions d'incidents individuels à la conception et la gestion d'infrastructures permettant de limiter ce type d'incidents.
 ---
 <div align="center">
 <h2 style="border-bottom: 0.05rem solid var(--md-default-fg-color--lightest); padding-bottom: 0.4rem;">🛠️ Domaines de compétences</h2>
@@ -142,11 +142,12 @@
 👉 **[Consulter la documentation technique complète du HomeLab](./homelab/01-pfsense.md)**
 
 ---
-
+<div align="center"> 
 <h2 id="disponibilite">📅 Disponibilité & Contact</h2>
-
+</div>
 !!! success "Disponible pour de nouvelles opportunités"
-    * **Rôle recherché :** Administrateur Systèmes et Réseaux (ASR)
+    * **Rôle recherché :** Administrateur Systèmes et Réseaux (ASR) / Technicien support N2
     * **Localisation :** Toulouse & Agglomération (Mobilité région / Télétravail possible)
-    * **Contact direct :** [mohamed.fofana@email.com](mailto:mohamed.fofana@email.com)
-    * **Réseaux :** [LinkedIn](https://linkedin.com) | [GitHub](https://github.com/mohamedfofana)
+    * **Contact direct :** [mohamed.fofana@email.com](mailto:mohamed.fofana@email.com) / 0781887100
+    * **Disponibilité :** Immédiate
+    * **Rentrée :** 26 Octobre 2026
