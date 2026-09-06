@@ -36,9 +36,9 @@ markdown_extensions:
 nav:
   - 👨‍💻 Portfolio: index.md
   - 🚀 Projet HomeLab:
-      - 🌐 1. Network & pfSense: homelab/01-pfsense.md
-      - 🏢 2. Active Directory Core: homelab/02-active-directory.md
-      - ⚡ 3. Automation PowerShell: homelab/03-powershell.md
-      - ⚙️ 4. Sécurité & GPO: homelab/04-gpo.md
-      - 🐧 5. DMZ & Serveur Web: homelab/05-dmz-linux.md
-      - 💾 6. Sauvegarde System State: homelab/06-sauvegarde.md
+      - 🌐 1. Network & pfSense: 01-pfsense.md
+      - 🏢 2. Active Directory Core: 02-active-directory.md
+      - ⚡ 3. Automation PowerShell: 03-powershell.md
+      - ⚙️ 4. Sécurité & GPO: 04-gpo.md
+      - 🐧 5. DMZ & Serveur Web: 05-dmz-linux.md
+      - 💾 6. Sauvegarde System State: 06-sauvegarde.md
