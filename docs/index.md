@@ -87,16 +87,18 @@
       <li>Résolution des incidents N2 de téléphonie mobile et d’impression
       <li>Diagnostic des incidents réseaux
       <li>Prise en compte et résolutions d’incident en astreinte
-      <li>Rédaction de procédure
+      <li>Rédaction de procédure <br>
     **Infrastuctures :**
+    <ul>
        <li>Gestions du parc d'imprimantes
        <li>Projet de déploiement d’affichage dynamique (configuration, suivi et résolution d’incidents)
        <li>Adressage IP des nouveaux équipements réseaux
-       <li>Création demande d’ouverture de flux pour des périphériques informatiques
-    **Surveillances et Sauvegardes :** 
+       <li>Création demande d’ouverture de flux pour des périphériques informatiques <br>
+    **Surveillances et Sauvegardes :**
+    <ul>
       <li>Surveillance des serveurs bureautiques et de téléphonies via l'outil SCOM
       <li>Surveillance du déploiement des CSP via Inthune
-      <li>Sauvegarde serveur LDAP via script PowerShell
+      <li>Sauvegarde serveur LDAP via script PowerShell <br>
     <ul>
 !!! note "Stagiaire Technicien support — Mairie de Cugnaux (2024 — 3 mois)"
     **Support & Incidents :**
