@@ -38,39 +38,31 @@
 ### Audit & Cartographie
 <code>Nmap</code>
 
-## 🛠️ Domaines de compétences
+<div class="grid cards" markdown>
 
-<div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(220px, 1fr)); gap: 1.5rem; margin-top: 1rem;">
+-   <span style="color: #00c6ff; font-weight: bold; font-size: 1.1em;">Réseau & Infrastructure</span>
 
-  <div>
-    <h3 style="color: #00c6ff !important; margin-bottom: 0.5rem; font-weight: bold;">Réseau & Infrastructure</h3>
-    <code>VLAN / 802.1Q</code> <code>Routage & ACL</code> <code>LACP</code> <code>DNS / DHCP</code>
-  </div>
+    `VLAN / 802.1Q` `Routage & ACL` `LACP` `DNS / DHCP`
 
-  <div>
-    <h3 style="color: #38ef7d !important; margin-bottom: 0.5rem; font-weight: bold;">Systèmes & Virtualisation</h3>
-    <code>Windows Server</code> <code>Linux (Debian)</code> <code>Hyper-V</code> <code>VMware</code> <code>GPO</code>
-  </div>
+-   <span style="color: #38ef7d; font-weight: bold; font-size: 1.1em;">Systèmes & Virtualisation</span>
 
-  <div>
-    <h3 style="color: #a855f7 !important; margin-bottom: 0.5rem; font-weight: bold;">Sécurité périmétrique</h3>
-    <code>pfSense / OPNsense</code> <code>DMZ</code> <code>VPN / IPsec</code> <code>Proxy / SNI</code>
-  </div>
+    `Windows Server` `Linux (Debian)` `Hyper-V` `VMware` `GPO`
 
-  <div>
-    <h3 style="color: #22c55e !important; margin-bottom: 0.5rem; font-weight: bold;">Détection (SOC)</h3>
-    <code>SIEM (Wazuh)</code> <code>Suricata IDS/IPS</code> <code>Sysmon</code> <code>MITRE ATT&CK</code>
-  </div>
+-   <span style="color: #a855f7; font-weight: bold; font-size: 1.1em;">Sécurité périmétrique</span>
 
-  <div>
-    <h3 style="color: #c084fc !important; margin-bottom: 0.5rem; font-weight: bold;">Réponse & Automatisation</h3>
-    <code>SOAR</code> <code>EDR</code> <code>Supervision (Zabbix)</code>
-  </div>
+    `pfSense / OPNsense` `DMZ` `VPN / IPsec` `Proxy / SNI`
 
-  <div>
-    <h3 style="color: #f97316 !important; margin-bottom: 0.5rem; font-weight: bold;">Gouvernance & Méthode</h3>
-    <code>EBIOS Risk Manager</code> <code>PSSI</code> <code>PRA / PCA</code> <code>RGPD</code>
-  </div>
+-   <span style="color: #22c55e; font-weight: bold; font-size: 1.1em;">Détection (SOC)</span>
+
+    `SIEM (Wazuh)` `Suricata IDS/IPS` `Sysmon` `MITRE ATT&CK`
+
+-   <span style="color: #a855f7; font-weight: bold; font-size: 1.1em;">Réponse & Automatisation</span>
+
+    `SOAR` `EDR` `Supervision (Zabbix)`
+
+-   <span style="color: #f97316; font-weight: bold; font-size: 1.1em;">Gouvernance & Méthode</span>
+
+    `EBIOS Risk Manager` `PSSI` `PRA / PCA` `RGPD`
 
 </div>
 
