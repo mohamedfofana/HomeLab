@@ -14,33 +14,10 @@
 </div>
 
 ---
-
-## 🛠️ Domaines de compétences
-
-### 🌐 Réseau & Infrastructure
-<code>VLAN</code> <code>Routage & ACL</code> <code>LACP</code> <code>DNS / DHCP</code>
-
-### 🖥️ Systèmes et Virtualisation
-<code>Windows</code> <code>Server</code> <code>Linux (Debian)</code> <code>Hyper-V</code> <code>VMware</code> <code>GPO</code>
-
-### 🔐 Sécurité périmétrique
-<code>pfSense / OPNsense</code> <code>DMZ</code> <code>VPN / IPsec</code>
-
-### Authentification & Accès
-<code>Active Directory</code> <code>LDAPS</code> <code>MFA</code>
-
-### Supervision
-</code>Zabbix</code>
-
-### Gouvernance & Méthode
-<code>PRA / PCA</code> <code>RGPD</code>1
-
-### Audit & Cartographie
-<code>Nmap</code>
-
+<div align="center">
 <h2 style="border-bottom: 0.05rem solid var(--md-default-fg-color--lightest); padding-bottom: 0.4rem;">🛠️ Domaines de compétences</h2>
-
-<div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(220px, 1fr)); gap: 1.5rem; margin-top: 1.5rem;">
+</div>
+<div align="center" style="display: grid; grid-template-columns: repeat(auto-fit, minmax(220px, 1fr)); gap: 1.5rem; margin-top: 1.5rem;">
 
   <!-- Réseau & Infrastructure (Bleu / Cyan) -->
   <div>
