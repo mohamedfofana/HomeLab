@@ -21,7 +21,7 @@
 
   <!-- Réseau & Infrastructure (Bleu / Cyan) -->
   <div>
-    <h3 style="color: #38bdf8 !important; margin-bottom: 0.8rem; font-weight: bold; font-size: 1.0rem;">Réseau & Infrastructure</h3>
+    <h3 style="color: #38bdf8 !important; margin-bottom: 0.8rem; font-weight: bold; font-size: 1.0rem; border-bottom: 2px solid #38bdf8; padding-bottom: 0.4rem;">Réseau & Infrastructure</h3>
     <div style="display: flex; flex-wrap: wrap; gap: 6px;">
       <span style="background: rgba(56, 189, 248, 0.15); color: #38bdf8; border: 1px solid rgba(56, 189, 248, 0.3); border-radius: 4px; padding: 3px 8px; font-size: 0.8rem; font-family: monospace;">VLAN</span>
       <span style="background: rgba(56, 189, 248, 0.15); color: #38bdf8; border: 1px solid rgba(56, 189, 248, 0.3); border-radius: 4px; padding: 3px 8px; font-size: 0.8rem; font-family: monospace;">Routage & ACL</span>
