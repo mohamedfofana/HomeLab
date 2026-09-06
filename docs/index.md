@@ -38,6 +38,34 @@
 ### Audit & Cartographie
 <code>Nmap</code>
 
+<div class="grid cards" markdown>
+
+-   <span style="color: #00c6ff; font-weight: bold; font-size: 1.1em;">Réseau & Infrastructure</span>
+
+    `VLAN / 802.1Q` `Routage & ACL` `LACP` `DNS / DHCP`
+
+-   <span style="color: #38ef7d; font-weight: bold; font-size: 1.1em;">Systèmes & Virtualisation</span>
+
+    `Windows Server` `Linux (Debian)` `Hyper-V` `VMware` `GPO`
+
+-   <span style="color: #a855f7; font-weight: bold; font-size: 1.1em;">Sécurité périmétrique</span>
+
+    `pfSense / OPNsense` `DMZ` `VPN / IPsec` `Proxy / SNI`
+
+-   <span style="color: #22c55e; font-weight: bold; font-size: 1.1em;">Détection (SOC)</span>
+
+    `SIEM (Wazuh)` `Suricata IDS/IPS` `Sysmon` `MITRE ATT&CK`
+
+-   <span style="color: #a855f7; font-weight: bold; font-size: 1.1em;">Réponse & Automatisation</span>
+
+    `SOAR` `EDR` `Supervision (Zabbix)`
+
+-   <span style="color: #f97316; font-weight: bold; font-size: 1.1em;">Gouvernance & Méthode</span>
+
+    `EBIOS Risk Manager` `PSSI` `PRA / PCA` `RGPD`
+
+</div>
+
 ---
 
 ## 💼 Expérience en entreprise
