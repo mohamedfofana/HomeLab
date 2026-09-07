@@ -10,13 +10,13 @@ L'objectif est de démontrer les compétences d'**Administration Systèmes et R�
 
 <picture>
   <!-- Image affichée en Mode Sombre -->
-  <source media="(prefers-color-scheme: dark)" srcset="https://github.com/mohamedfofana/Portfolio/blob/main/docs/images/Lablanc.drawio.png">
+  <source media="(prefers-color-scheme: dark)" srcset="https://github.com/mohamedfofana/Portfolio/raw/main/docs/images/Lablanc.drawio.png">
   
   <!-- Image affichée en Mode Clair (par défaut) -->
-  <source media="(prefers-color-scheme: light)" srcset="https://github.com/mohamedfofana/Portfolio/blob/main/docs/images/Lab.drawio.png">
+  <source media="(prefers-color-scheme: light)" srcset="https://github.com/mohamedfofana/Portfolio/raw/main/docs/images/Lab.drawio.png">
   
   <!-- Image de secours si le navigateur ne gère pas la balise -->
-  <img alt="Schéma de l'architecture" src="https://github.com/mohamedfofana/Portfolio/blob/main/docs/images/Lab.drawio.png">
+  <img alt="Schéma de l'architecture" src="https://github.com/mohamedfofana/Portfolio/raw/main/docs/images/Lab.drawio.png">
 </picture>
 <br/>  
 
