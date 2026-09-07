@@ -24,7 +24,7 @@
 > Je cherche donc à développer mes compétences en administration d'infrastructures afin de passer de la résolutions d'incidents individuels à la conception et la gestion d'infrastructures permettant de limiter ce type d'incidents.
 ---
 <div align="center">
-<h2 style="border-bottom: 0.05rem solid var(--md-default-fg-color--lightest); padding-bottom: 0.4rem;">🛠️ Domaines de compétences</h2>
+<h2 style="border-bottom: 0.05rem solid var(--md-default-fg-color--lightest); padding-bottom: 0.4rem;">📚 Domaines de compétences</h2>
 </div>
 <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(220px, 1fr)); gap: 1.5rem; margin-top: 1.5rem;">
 
@@ -130,8 +130,19 @@
 ---
 
 <div align="center">
-<h2 style="border-bottom: 0.05rem solid var(--md-default-fg-color--lightest); padding-bottom: 0.4rem;">🚀 Projets Réalisés</h2>
+<h2 style="border-bottom: 0.05rem solid var(--md-default-fg-color--lightest); padding-bottom: 0.4rem;">🗂 Projets Réalisés</h2>
 </div>
+
+!!! abstract "En formation — Infrastructure AD (2026)"
+
+    **Environnement :** `Microsoft Hyper-V` • `pfSense` • `Windows Server 2022` • `Debian Linux`  
+    **Technologies :** `Active Directory` • `VLANs` • `DMZ` • `PowerShell` • `Nginx` • `System State Backup`
+
+    **Description du projet :**
+    Conception et mise en placed'une infrastructure Active Directory sur Windows Server2019 via Hyper-V : gestion des utilisateurs, des groupes, des dossiers partagés et des GPO.
+    Mise en place d’un réseau NATsur Cisco Packet Tracercontenant : VLAN, DMZ, PAT, et ACL.
+    Mise en réseaux de machine virtuelle avec le réseaux local dela salle et déploiement d’une borne Wifi.
+
 
 !!! abstract "HomeLab — Architecture & Infrastructure d'Entreprise ASR (2026)"
 
