@@ -133,15 +133,15 @@
 <h2 style="border-bottom: 0.05rem solid var(--md-default-fg-color--lightest); padding-bottom: 0.4rem;">🗂 Projets Réalisés</h2>
 </div>
 
-!!! abstract "En formation — Infrastructure AD (2026)"
+!!! abstract "En formation — Infrastructure AD"
 
-    **Environnement :** `Microsoft Hyper-V` • `pfSense` • `Windows Server 2022` • `Debian Linux`  
-    **Technologies :** `Active Directory` • `VLANs` • `DMZ` • `PowerShell` • `Nginx` • `System State Backup`
+    **Environnement :** `Microsoft Hyper-V` • `Windows Server 2019` • `Debian Linux` • `Cisco Packet Tracer` 
+    **Technologies :** `Active Directory` • `VLANs` • `DMZ` • `PowerShell` • `Node.js` • `Wiki.js`
 
     **Description du projet :**
-    Conception et mise en place d'une infrastructure Active Directory sur Windows Server 2019 via Hyper-V : gestion des utilisateurs, des groupes, des dossiers partagés et des GPO. Mise en place d’un réseau NAT sur Cisco Packet Tracer contenant : VLAN, DMZ, PAT, et ACL. Mise en réseaux de machine virtuelle avec le réseaux local de la salle et déploiement d’une borne Wifi.
+    Conception et mise en place d'une infrastructure Active Directory sur Windows Server 2019 via Hyper-V : gestion des utilisateurs, des groupes, des dossiers partagés et des GPO. Création des utilisateurs via script PowerShell. Mise en place d’un réseau NAT sur Cisco Packet Tracer contenant : VLAN, DMZ, PAT, et ACL. Mise en réseaux de machine virtuelle avec le réseaux local de la salle et déploiement d’une borne Wifi. Création de procédure sur un serveur Wiki.js.
 
-!!! abstract "HomeLab — Architecture & Infrastructure d'Entreprise ASR (2026)"
+!!! abstract "HomeLab — Architecture & Infrastructure d'Entreprise"
 
     **Environnement :** `Microsoft Hyper-V` • `pfSense` • `Windows Server 2022` • `Debian Linux`  
     **Technologies :** `Active Directory` • `VLANs` • `DMZ` • `PowerShell` • `Nginx` • `System State Backup`
@@ -149,7 +149,7 @@
     **Description du projet :**
     Conception et déploiement d'une maquette réseau entreprise sur Hyper-V. Mise en place d'une segmentation par pare-feu pfSense, d'un annuaire Active Directory durci par GPO, d'un script d'intégration PowerShell, d'un serveur Web isolé en DMZ et d'une politique de sauvegarde.
 
-    👉 **[Consulter le rapport technique et la documentation du HomeLab](./homelab/01-pfsense.md)**
+    👉 **[Consulter le rapport technique et la documentation du HomeLab](./Homelab.pdf)**
 
 ---
 <div align="center"> 
