@@ -135,7 +135,7 @@
 
 !!! abstract "En formation — Infrastructure AD"
 
-    **Environnement :** `Microsoft Hyper-V` • `Windows Server 2019` • `Debian Linux` • `Cisco Packet Tracer` 
+    **Environnement :** `Microsoft Hyper-V` • `Windows Server 2019` • `Debian Linux` • `Cisco Packet Tracer`  
     **Technologies :** `Active Directory` • `VLANs` • `DMZ` • `PowerShell` • `Node.js` • `Wiki.js`
 
     **Description du projet :**
