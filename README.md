@@ -37,13 +37,13 @@ Plutôt que d'autoriser tout le trafic LAN sans restriction, le pare-feu est con
  Filtrage des flux entrants/sortants : Suppression des règles permissives de base (Default ANY). <br/>  
 * **Ouverture ciblée des flux :** <br/>  
   * ACL VLAN ADMIN<br/>  
-![image règle admin](https://github.com/mohamedfofana/Portfolio/blob/main/docs/images/ACL_ADMIN.png) <br/>  
+![image règle admin](https://github.com/mohamedfofana/Portfolio/raw/main/docs/images/ACL_ADMIN.png) <br/>  
   * ACL VLAN Serveur <br/>  
-![image règle srv](https://github.com/mohamedfofana/Portfolio/blob/main/docs/images/ACL_SRV.png) <br/>  
+![image règle srv](https://github.com/mohamedfofana/Portfolio/raw/main/docs/images/ACL_SRV.png) <br/>  
   * ACL VLAN PROD <br/>
-![image regle prod](https://github.com/mohamedfofana/Portfolio/blob/main/docs/images/ACL_PROD.png) <br/>  
+![image regle prod](https://github.com/mohamedfofana/Portfolio/raw/main/docs/images/ACL_PROD.png) <br/>  
   * ACL VLAN DMZ <br/>  
-![image règle dmz](https://github.com/mohamedfofana/Portfolio/blob/main/docs/images/ACL_DMZ.png)<br/>  
+![image règle dmz](https://github.com/mohamedfofana/Portfolio/raw/main/docs/images/ACL_DMZ.png)<br/>  
 **Traduction d'adresses :** <br/>  
   * Source NAT / Outbound PAT : Mis en place pour permettre à l'ensemble de équipements des différents VLANs privés d'accéder au réseau externe en partageant une unique adresse IP WAN.<br/>  
   * Destination NAT / Inbound PAT : Configuré pour réorienter de manière ciblée le trafic entrant sur des ports spécifiques vers le serveur web situé dans la DMZ. <br/>  
@@ -66,15 +66,15 @@ Mise en place du cœur de l'annuaire d'entreprise et des services d'infrastructu
   * **DNS :** Gestion de la résolution de noms interne et des zones de recherche directe/inverse.
   * **DHCP :** Gestion de l'adressage IP dynamique relayé par pfSense pour les sous-réseaux clients.
 
-![image services](https://github.com/mohamedfofana/Portfolio/blob/main/docs/images/services.png)
-![image dns](https://github.com/mohamedfofana/Portfolio/blob/main/docs/images/dns.png)
-![image étendu](https://github.com/mohamedfofana/Portfolio/blob/main/docs/images/étendu.png)
-![image option dhcp](https://github.com/mohamedfofana/Portfolio/blob/main/docs/images/dhcp.png)
+![image services](https://github.com/mohamedfofana/Portfolio/raw/main/docs/images/services.png)
+![image dns](https://github.com/mohamedfofana/Portfolio/raw/main/docs/images/dns.png)
+![image étendu](https://github.com/mohamedfofana/Portfolio/raw/main/docs/images/étendu.png)
+![image option dhcp](https://github.com/mohamedfofana/Portfolio/raw/main/docs/images/dhcp.png)
 
 * **Arborescence des Unités d'Organisation (UO) :**
   * Organisation structurée pour préparer l'application des stratégies de groupe (`Fofana` > `Utilisateurs`, `Groupes`, `Ordinateurs`, `Serveurs`).
 
-![Image arborescence des UO dans AD](https://github.com/mohamedfofana/Portfolio/blob/main/docs/images/AD.png)
+![Image arborescence des UO dans AD](https://github.com/mohamedfofana/Portfolio/raw/main/docs/images/AD.png)
 
 * **Difficultés rencontrées / Remarques :**
   * Après la création d'une étendu le service DHCP ne s'active pas automatiquement il faut l'activer manuellement
@@ -92,11 +92,11 @@ Automatisation de l'intégration des collaborateurs pour éviter la création ma
   * Création automatique des comptes utilisateurs Active Directory dans les bonnes UO.
   * Attribution des groupes de sécurité et création dynamique de leur dossier personnel avec droits NTFS adaptés.
  
-📜 [Cliquez ici pour consulter le script PowerShell complet](https://github.com/mohamedfofana/Portfolio/blob/main/docs/scripts/ScriptAddUser.ps1)
+📜 [Cliquez ici pour consulter le script PowerShell complet](https://github.com/mohamedfofana/Portfolio/raw/main/docs/scripts/ScriptAddUser.ps1)
 
-![Image execution du script PowerShell dans la console](https://github.com/mohamedfofana/Portfolio/blob/main/docs/images/script.png)
+![Image execution du script PowerShell dans la console](https://github.com/mohamedfofana/Portfolio/raw/main/docs/images/script.png)
 
-![Image résultat des utilisateurs créés dans la console Active Directory](https://github.com/mohamedfofana/Portfolio/blob/main/docs/images/AD.png)
+![Image résultat des utilisateurs créés dans la console Active Directory](https://github.com/mohamedfofana/Portfolio/raw/main/docs/images/AD.png)
 
 ** Difficultés rencontrées / Remarques :**
 
@@ -119,10 +119,10 @@ Sécurisation centralisée du parc de machines et automatisation de l'environnem
 
   * Déploiement Logiciel : Automatisation de l'installation de 7zip .msi au démarrage de la machine.
 
-![Image console gpmc.msc montrant les GPOs créées](https://github.com/mohamedfofana/Portfolio/blob/main/docs/images/gpo.png)
+![Image console gpmc.msc montrant les GPOs créées](https://github.com/mohamedfofana/Portfolio/raw/main/docs/images/gpo.png)
 
 
-![Image test de restriction et du lecteur réseau Z: sur PC-PROD](https://github.com/mohamedfofana/Portfolio/blob/main/docs/images/gpo_result.png) 
+![Image test de restriction et du lecteur réseau Z: sur PC-PROD](https://github.com/mohamedfofana/Portfolio/raw/main/docs/images/gpo_result.png) 
 
 **Difficultés rencontrées / Remarques :**
 Recherche de l'emplacement de certaines paramètres de GPO sur internet
@@ -141,7 +141,7 @@ Mise en place d'une stratégie de sauvegarde pour le contrôleur de domaine (Act
   * Activation de la **Corbeille Active Directory** pour la restauration rapide d'objets supprimés sans interruption de service.
   * Isolement du volume de sauvegarde pour prévenir les altérations.
 
-![Image console de Sauvegarde Windows Server affichant le statut "Réussi"](https://github.com/mohamedfofana/Portfolio/blob/main/docs/images/sauvegarde.png)
+![Image console de Sauvegarde Windows Server affichant le statut "Réussi"](https://github.com/mohamedfofana/Portfolio/raw/main/docs/images/sauvegarde.png)
 
 **Difficultés rencontrées / Remarques :**
 Cette manipulation à nécessité d'ajouter un volume disque virtuel dédié non inclus dans la sauvegarde pour pouvoir stocker l'image System State.
@@ -166,11 +166,11 @@ Sauvegarde Automatisée du Serveur Web (Bash) :
 Automatisation de l'exécution via une tâche planifiée (cron).
 
 
-📜 [Cliquez ici pour consulter le script Bash complet](https://github.com/mohamedfofana/Portfolio/blob/main/docs/scripts/backup_web.sh)
+📜 [Cliquez ici pour consulter le script Bash complet](https://github.com/mohamedfofana/Portfolio/raw/main/docs/scripts/backup_web.sh)
 
-![Image page web accessible depuis le client](https://github.com/mohamedfofana/Portfolio/blob/main/docs/images/web.png)
+![Image page web accessible depuis le client](https://github.com/mohamedfofana/Portfolio/raw/main/docs/images/web.png)
 
-![Image execution du script Bash et vérification du dossier de sauvegarde](https://github.com/mohamedfofana/Portfolio/blob/main/docs/images/script_web.png)
+![Image execution du script Bash et vérification du dossier de sauvegarde](https://github.com/mohamedfofana/Portfolio/raw/main/docs/images/script_web.png)
 
 **Difficultés rencontrées / Remarques :**
   * Le prompt de la page web a été configuré par l'intelligence artificielle
